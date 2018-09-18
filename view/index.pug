@@ -1,0 +1,15 @@
+extends layout
+block content
+    h2 #{title}
+    h4 #{scripts.morningPsalms[0].title}
+    div #{scripts.morningPsalms[0].content}
+    h4 #{scripts.morningPsalms[1].title}
+    div #{scripts.morningPsalms[1].content}
+    h4 #{scripts.dailyScripts.firstReading.title}
+    div #{scripts.dailyScripts.firstReading.content}
+    h4 #{scripts.dailyScripts.secondReading.title}
+    div #{scripts.dailyScripts.secondReading.content}
+    h4 #{scripts.eveningPsalms[0].title}
+    div #{scripts.eveningPsalms[0].content}
+    h4 #{scripts.eveningPsalms[1].title}
+    div #{scripts.eveningPsalms[1].content}
