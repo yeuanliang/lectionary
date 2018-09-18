@@ -4,19 +4,26 @@ const Hapi = require('hapi');
 const Vision = require('vision')
 const Pug = require('pug')
 const DailyReadings = require('./lib/dailyreading')
+
 const internals = {
     templatePath: '.'
 };
-const today = new Date();
-internals.thisYear = today.getFullYear();
 
 const rootHandler = (request, h) => {
+    const today = new Date();
+    const thisYear = today.getFullYear();
     const scripts = DailyReadings(today)
     return h.view('index', {
         title: '今日经文',
         scripts:scripts,
-        year: internals.thisYear
+        year: thisYear
     });
+};
+
+const apiHandler = (request, h) => {
+    const today = new Date();
+    const scripts = DailyReadings(today)
+    return scripts
 };
 
 internals.main = async () => {
@@ -32,6 +39,7 @@ internals.main = async () => {
     });
 
     server.route({ method: 'GET', path: '/', handler: rootHandler });
+    server.route({ method: 'GET', path: '/api', handler: apiHandler });
 
     await server.start();
     console.log(`Server running at: ${server.info.uri}`);
