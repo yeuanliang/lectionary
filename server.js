@@ -1,32 +1,35 @@
 'use strict';
 
 const Hapi = require('hapi');
-const Vision = require('vision')
-const Pug = require('pug')
-const DailyReadings = require('./lib/dailyreading')
+const Vision = require('vision');
+const Pug = require('pug');
+const GetDailyReadings = require('./lib/dailyreading');
 
 const internals = {
     templatePath: '.'
 };
 
 const rootHandler = (request, h) => {
+
     const today = new Date();
     const thisYear = today.getFullYear();
-    const scripts = DailyReadings(today)
+    const scripts = GetDailyReadings(today);
     return h.view('index', {
         title: '今日经文',
-        scripts:scripts,
+        scripts,
         year: thisYear
     });
 };
 
 const apiHandler = (request, h) => {
+
     const today = new Date();
-    const scripts = DailyReadings(today)
-    return scripts
+    const scripts = GetDailyReadings(today);
+    return scripts;
 };
 
 internals.main = async () => {
+
     const server = Hapi.server({
         port: 3000,
         host: 'localhost'
