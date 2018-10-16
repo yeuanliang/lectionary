@@ -1,0 +1,30 @@
+extends layout
+block content
+    h2 #{title}
+    h3 第一经文
+    h4 #{scripts.firstReading.title}
+    div #{scripts.firstReading.content}
+    if #{scripts.firstReadingOptional}
+      h4 或 #{scripts.firstReadingOptional.title}
+      div #{scripts.firstReadingOptional.content}
+    h3 诗篇
+    h4 #{scripts.psalm.title}
+    div #{scripts.psalm.content}
+    if #{scripts.psalmOptional}
+      h4 或 #{scripts.psalmOptional.title}
+      div #{scripts.psalmOptional.content}
+    h3 第二经文
+    h4 #{scripts.secondReading.title}
+    div #{scripts.secondReading.content}
+    if #{scripts.secondReadingOptional}
+      h4 或 #{scripts.secondReadingOptional.title}
+      div #{scripts.secondReadingOptional.content}
+    h3 福音经文
+    h4 #{scripts.gospel.title}
+    div #{scripts.gospel.content}
+    if #{scripts.gospelOptional}
+      h4 或 #{scripts.gospelOptional.title}
+      div #{scripts.gospelOptional.content}
+    else if #{scripts['gospelOptional2']}
+      h4 或 #{scripts['gospelOptional2'].title}
+      div #{scripts['gospelOptional2'].content}

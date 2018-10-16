@@ -2,23 +2,30 @@
 
 const AdventJS = require('advent-js');
 const Moment = require('moment');
-const DailyLectionary = require('./daily-lectionary.js');
-const DailyPsalms = require('./daily-psalms.js');
-const DailyMorningPsalm = require('./daily-morning-psalm.js');
-const MovableDays = require('./config').daysMovable;
+const DailyMorningPsalm = require('../../data/daily-morning-psalm.js');
+const DailyPsalms = require('../../data/daily-psalms.js');
+const Utils = require('../../utils/utils.js');
 
-const getDailyReadings = function (date) {
+const internals = {};
 
+internals.getDailyPsalms = function (request, h){
+
+    let date = '';
+    if (request.query.date){
+        date = request.query.date;
+    }
+    else {
+        date = Utils.getToday();
+    }
+
+    const theYear = date.substring(0,4);
     const theday = Moment(date);
-    const theYear = theday.format('YYYY');
     const epiphany = Moment(theYear + '-01-06');
     const adventSunday = AdventJS.adventSunday(theYear);
     const christmas = AdventJS.christmas(theYear);
     const ashWednesday = AdventJS.ashWednesday(theYear);
     const easter = AdventJS.easter(theYear);
     const pentecost = AdventJS.pentecost(theYear);
-    const holyTrinity = pentecost.add(7, 'd');
-
     const generalDay = function (generalName, momentObject) {
 
         let startDay = 0;
@@ -40,28 +47,12 @@ const getDailyReadings = function (date) {
         return 'general' + weekNumber + '-' + momentObject.day();
     };
 
-    const dailyReadings = {
+    const dailyPsalms = {
         morningPsalms: [],
-        dailyScripts: {},
         eveningPsalms: []
     };
 
-    // 每日经文
-    let dateName = '';
-    if (theday >= adventSunday && theday <= holyTrinity) {
-        const index = theday.diff(ashWednesday, 'days');
-        dateName = MovableDays[index];
-    }
-    else {
-        dateName = 'day' + theday.format('MM-DD');
-    }
-
-    dailyReadings.dailyScripts = DailyLectionary[dateName];
-    // 诗145-150
-    dailyReadings.morningPsalms.push(DailyMorningPsalm[theday.day()]);
-    // 晨祷晚祷诗篇
-    // movableDays: AshWednesday to HolyTrinity (7 days after Pentecost)
-    // GeneralTime四周一个周期
+    dailyPsalms.morningPsalms.push(DailyMorningPsalm[theday.day()]);
     let dayName = '';
     if (theday <= epiphany) {
         dayName = 'day' + theday.format('MM-DD');
@@ -92,9 +83,9 @@ const getDailyReadings = function (date) {
         dayName = 'day' + theday.format('MM-DD');
     }
 
-    dailyReadings.morningPsalms.push(DailyPsalms[dayName].morningPsalm);
-    dailyReadings.eveningPsalms = DailyPsalms[dayName].eveningPsalm;
-    return dailyReadings;
+    dailyPsalms.morningPsalms.push(DailyPsalms[dayName].morningPsalm);
+    dailyPsalms.eveningPsalms = DailyPsalms[dayName].eveningPsalm;
+    return dailyPsalms;
 };
 
-module.exports = getDailyReadings;
+module.exports = internals;

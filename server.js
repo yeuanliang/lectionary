@@ -2,30 +2,15 @@
 
 const Hapi = require('hapi');
 const Vision = require('vision');
+const Inert = require('inert');
 const Pug = require('pug');
-const GetDailyReadings = require('./lib/dailyreading');
+const HapiSwagger = require('hapi-swagger');
+const ApiRouters = require('./app_api/routes');
+const WebRouters = require('./app_server/routes');
+const Pack = require('./package');
 
 const internals = {
     templatePath: '.'
-};
-
-const rootHandler = (request, h) => {
-
-    const today = new Date();
-    const thisYear = today.getFullYear();
-    const scripts = GetDailyReadings(today);
-    return h.view('index', {
-        title: '今日经文',
-        scripts,
-        year: thisYear
-    });
-};
-
-const apiHandler = (request, h) => {
-
-    const today = new Date();
-    const scripts = GetDailyReadings(today);
-    return scripts;
 };
 
 internals.main = async () => {
@@ -34,17 +19,34 @@ internals.main = async () => {
         port: 3000,
         host: 'localhost'
     });
-    await server.register(Vision);
+
+    const swaggerOptions = {
+        info: {
+            title: 'DailyReading API Documentation',
+            version: Pack.version
+        }
+    };
+
+    await server.register([
+        Vision,
+        Inert,
+        {
+            plugin: HapiSwagger,
+            options: swaggerOptions
+        }
+    ]);
+
     server.views({
         engines: { pug: Pug },
         relativeTo: __dirname,
-        path: `view/${internals.templatePath}`
+        path: `app_server/views/${internals.templatePath}`
     });
 
-    server.route({ method: 'GET', path: '/', handler: rootHandler });
-    server.route({ method: 'GET', path: '/api', handler: apiHandler });
+    server.route(ApiRouters.routes);
+    server.route(WebRouters.routes);
 
     await server.start();
+
     console.log(`Server running at: ${server.info.uri}`);
 };
 
