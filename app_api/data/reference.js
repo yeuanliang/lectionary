@@ -39,7 +39,7 @@ module.exports.bibleBooks = {
         'Nehemiah',
         'Esther',
         'Job',
-        'Psalm',
+        'Psalms',
         'Proverbs',
         'Ecclesiastes',
         'SongofSongs',
@@ -86,7 +86,7 @@ module.exports.bibleBooks = {
         '2John',
         '3John',
         'Jude',
-        'Revelation'
+        'Revelations'
     ],
     zh:[
         '创世记',
@@ -104,7 +104,7 @@ module.exports.bibleBooks = {
         '历代志上',
         '历代志下',
         '以斯拉记',
-        '尼希米即',
+        '尼希米记',
         '以斯帖记',
         '约伯记',
         '诗篇',

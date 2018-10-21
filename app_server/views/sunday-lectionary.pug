@@ -3,14 +3,15 @@ block content
     div(class="container")
         div(class="col")
         div(class="col")
-            div(class="card card-info" style="padding: 10px; margin-top: 20px;")
+            div(class="card" style="padding: 10px; margin-top: 20px;")
                 if series
-                  h4(class="card-header text-center") #{scripts.date}主日经文
+                  h4(class="text-center") 主日经文
                 else
-                  h4(class="card-header text-center") 节日经文
+                  h4(class="text-center") 节日经文
                 div(class="card-body") 
                   if series
-                    p(class="card-text text-center") #{series} series #{scripts.name}
+                    p(class="card-text text-center") #{series} series
+                    p(class="card-text text-center") #{scripts.date} #{scripts.name}
                   else
                     p(class="card-text text-center") #{scripts.date} #{scripts.name}
             h5(style="margin-top: 20px;") 第一读经
