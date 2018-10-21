@@ -3,6 +3,7 @@
 const AdventJS = require('advent-js');
 const Moment = require('moment');
 const SundayLectionary = require('../../data/sunday-lectionary.js');
+const FestivalsInfo = require('../../data/reference.js').festivalsInfo;
 const Utils = require('../../utils/utils.js');
 
 const internals = {};
@@ -24,35 +25,52 @@ internals.getSundayLectionary = function (request, h) {
     const nextAdventSunday = AdventJS.adventSunday(theYear + 1);
     let weeks = [];
     let weekIndex = 0;
-    let weekName = '';
+    let weekInfo = '';
     let seriesYear = '';
     if (series === 'one-year') {
         seriesYear = 'one';
         if (nextAdventSunday.diff(theDay,'days') > 6){
-            weeks = Utils.sundaysOfOneYearSeries(theYear);
+            weeks = Utils.sundaysInfoOfOneYearSeries(theYear);
             weekIndex = ~~((theDay.diff(adventSunday,'days') + 6 ) / 7);
-            weekName = weeks[weekIndex];
+            weekInfo = weeks[weekIndex];
         }
         else {
-            weeks = Utils.sundaysOfOneYearSeries(theYear + 1);
-            weekName = weeks[0];
+            weeks = Utils.sundaysInfoOfOneYearSeries(theYear + 1);
+            weekInfo = weeks[0];
         }
     }
     else {
         if (nextAdventSunday.diff(theDay,'days') > 6){
             seriesYear = Utils.yearSeries(theYear);
-            weeks = Utils.sundaysOfThreeYearsSeries(theYear);
+            weeks = Utils.sundaysInfoOfThreeYearSeries(theYear);
             weekIndex = ~~((theDay.diff(adventSunday,'days') + 6 ) / 7);
-            weekName = weeks[weekIndex];
+            weekInfo = weeks[weekIndex];
         }
         else {
             seriesYear = Utils.yearSeries(theYear + 1);
-            weeks = Utils.sundaysOfThreeYearsSeries(theYear + 1);
-            weekName = weeks[0];
+            weeks = Utils.sundaysInfoOfThreeYearSeries(theYear + 1);
+            weekInfo = weeks[0];
         }
     }
 
-    return SundayLectionary[seriesYear][weekName];
+    return {
+        name: weekInfo.sundayName,
+        date: weekInfo.date,
+        lectionary: SundayLectionary[seriesYear][weekInfo.sign]
+    };
+};
+
+internals.getFestivalLectionary = function (request, h) {
+
+    const festival = request.params.festival;
+    const date = FestivalsInfo[festival].date;
+    const name = FestivalsInfo[festival].name;
+    const lectionary = SundayLectionary.one[festival];
+    return {
+        date,
+        name,
+        lectionary
+    };
 };
 
 module.exports = internals;

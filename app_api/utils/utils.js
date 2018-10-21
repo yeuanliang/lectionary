@@ -1,6 +1,8 @@
 'use strict';
 
 const AdventJS = require('advent-js');
+const SundaysBeforeHolyTrinity = require('../data/reference.js').sundaysBeforeHolyTrinity;
+const SundaysAfterHolyTrinity = require('../data/reference.js').sundaysAfterHolyTrinity;
 const Moment = require('moment');
 
 const formatNumber = (n) => {
@@ -114,7 +116,48 @@ const sundaysOfOneYearSeries = function (beginYear) {
     return churchYearSundays;
 };
 
-const sundaysOfThreeYearsSeries = function (beginYear) {
+const sundaysNameOfOneYearSeries = function (beginYear){
+
+    const sundaysOfTheYear = sundaysOfOneYearSeries(beginYear);
+    const sundaysName = [];
+    const holyTrinityIndex = sundaysOfTheYear.indexOf('holyTrinity');
+    for (let i = 0; i <= holyTrinityIndex; ++i){
+        sundaysName.push(SundaysBeforeHolyTrinity[sundaysOfTheYear[i]]);
+    }
+
+    let j = 0;
+    while (sundaysName.length < sundaysOfTheYear.length - 1){
+        sundaysName.push(SundaysAfterHolyTrinity.oneYear[j]);
+        ++j;
+    }
+
+    sundaysName.push('Last Sunday of Church Year');
+    return sundaysName;
+};
+
+const sundaysInfoOfOneYearSeries = function (beginYear){
+
+    const sundaysOfTheYear = sundaysOfOneYearSeries(beginYear);
+    const sundaysNameOfTheYear = sundaysNameOfOneYearSeries(beginYear);
+    const sundaysInfoOfTheYear = [];
+    const adventSunday = AdventJS.adventSunday(beginYear);
+    const nextAdventSunday = AdventJS.adventSunday(beginYear + 1);
+    let sundayTime = adventSunday;
+    let i = 0;
+    while (sundayTime < nextAdventSunday){
+        sundaysInfoOfTheYear.push({
+            sign: sundaysOfTheYear[i],
+            date: sundayTime.format('YYYY-MM-DD'),
+            sundayName: sundaysNameOfTheYear[i]
+        });
+        ++i;
+        sundayTime = sundayTime.add(7,'days');
+    }
+
+    return sundaysInfoOfTheYear;
+};
+
+const sundaysOfThreeYearSeries = function (beginYear) {
 
     const churchYearSundays = [];
     const christmas = AdventJS.christmas(beginYear);
@@ -175,6 +218,47 @@ const sundaysOfThreeYearsSeries = function (beginYear) {
     return churchYearSundays;
 };
 
+const sundaysNameOfThreeYearSeries = function (beginYear){
+
+    const sundaysOfTheYear = sundaysOfThreeYearSeries(beginYear);
+    const sundaysName = [];
+    const holyTrinityIndex = sundaysOfTheYear.indexOf('holyTrinity');
+    for (let i = 0; i <= holyTrinityIndex; ++i){
+        sundaysName.push(SundaysBeforeHolyTrinity[sundaysOfTheYear[i]]);
+    }
+
+    let j = 0;
+    while (sundaysName.length < sundaysOfTheYear.length - 1){
+        sundaysName.push(SundaysAfterHolyTrinity.threeYear[j]);
+        ++j;
+    }
+
+    sundaysName.push('Last Sunday of Church Year');
+    return sundaysName;
+};
+
+const sundaysInfoOfThreeYearSeries = function (beginYear){
+
+    const sundaysOfTheYear = sundaysOfThreeYearSeries(beginYear);
+    const sundaysNameOfTheYear = sundaysNameOfThreeYearSeries(beginYear);
+    const sundaysInfoOfTheYear = [];
+    const adventSunday = AdventJS.adventSunday(beginYear);
+    const nextAdventSunday = AdventJS.adventSunday(beginYear + 1);
+    let sundayTime = adventSunday;
+    let i = 0;
+    while (sundayTime < nextAdventSunday){
+        sundaysInfoOfTheYear.push({
+            sign: sundaysOfTheYear[i],
+            date: sundayTime.format('YYYY-MM-DD'),
+            sundayName: sundaysNameOfTheYear[i]
+        });
+        ++i;
+        sundayTime = sundayTime.add(7,'days');
+    }
+
+    return sundaysInfoOfTheYear;
+};
+
 module.exports.getToday = getToday;
 
 module.exports.startYear = startYear;
@@ -183,4 +267,8 @@ module.exports.yearSeries = yearSeries;
 
 module.exports.sundaysOfOneYearSeries = sundaysOfOneYearSeries;
 
-module.exports.sundaysOfThreeYearsSeries = sundaysOfThreeYearsSeries;
+module.exports.sundaysInfoOfOneYearSeries = sundaysInfoOfOneYearSeries;
+
+module.exports.sundaysOfThreeYearSeries = sundaysOfThreeYearSeries;
+
+module.exports.sundaysInfoOfThreeYearSeries = sundaysInfoOfThreeYearSeries;

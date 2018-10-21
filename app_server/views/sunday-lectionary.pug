@@ -1,30 +1,52 @@
 extends layout
 block content
-    h2 #{title}
-    h3 第一经文
-    h4 #{scripts.firstReading.title}
-    div #{scripts.firstReading.content}
-    if #{scripts.firstReadingOptional}
-      h4 或 #{scripts.firstReadingOptional.title}
-      div #{scripts.firstReadingOptional.content}
-    h3 诗篇
-    h4 #{scripts.psalm.title}
-    div #{scripts.psalm.content}
-    if #{scripts.psalmOptional}
-      h4 或 #{scripts.psalmOptional.title}
-      div #{scripts.psalmOptional.content}
-    h3 第二经文
-    h4 #{scripts.secondReading.title}
-    div #{scripts.secondReading.content}
-    if #{scripts.secondReadingOptional}
-      h4 或 #{scripts.secondReadingOptional.title}
-      div #{scripts.secondReadingOptional.content}
-    h3 福音经文
-    h4 #{scripts.gospel.title}
-    div #{scripts.gospel.content}
-    if #{scripts.gospelOptional}
-      h4 或 #{scripts.gospelOptional.title}
-      div #{scripts.gospelOptional.content}
-    else if #{scripts['gospelOptional2']}
-      h4 或 #{scripts['gospelOptional2'].title}
-      div #{scripts['gospelOptional2'].content}
+    div(class="container")
+        div(class="col")
+        div(class="col")
+            div(class="card card-info" style="padding: 10px; margin-top: 20px;")
+                if series
+                  h4(class="card-header text-center") #{scripts.date}主日经文
+                else
+                  h4(class="card-header text-center") 节日经文
+                div(class="card-body") 
+                  if series
+                    p(class="card-text text-center") #{series} series #{scripts.name}
+                  else
+                    p(class="card-text text-center") #{scripts.date} #{scripts.name}
+            h5(style="margin-top: 20px;") 第一读经
+            div(class="border" style="padding: 10px;")
+                h6 #{scripts.lectionary.firstReading.title}
+                p #{scripts.lectionary.firstReading.content}
+                if scripts.lectionary.firstReadingOptional
+                  hr
+                  h6(class="text-secondary") #{scripts.lectionary.firstReadingOptional.title}
+                  p(class="text-secondary") #{scripts.lectionary.firstReadingOptional.content}
+            h5(style="margin-top: 20px;") 诗篇
+            div(class="border" style="padding: 10px;")
+                h6 #{scripts.lectionary.psalm.title}
+                p #{scripts.lectionary.psalm.content}
+                if scripts.lectionary.psalmOptional
+                  hr
+                  h6(class="text-secondary") #{scripts.lectionary.psalmOptional.title}
+                  p(class="text-secondary") #{scripts.lectionary.psalmOptional.content}
+            h5(style="margin-top: 20px;") 第二读经
+            div(class="border" style="padding: 10px;")
+                h6 #{scripts.lectionary.secondReading.title}
+                p #{scripts.lectionary.secondReading.content}
+                if scripts.lectionary.secondReadingOptional
+                  hr
+                  h6(class="text-secondary") #{scripts.lectionary.secondReadingOptional.title}
+                  p(class="text-secondary") #{scripts.lectionary.secondReadingOptional.content}
+            h5(style="margin-top: 20px;") 福音经文
+            div(class="border" style="padding: 10px;")
+                h6 #{scripts.lectionary.gospel.title}
+                p #{scripts.lectionary.gospel.content}
+                if scripts.lectionary.gospelOptional
+                  hr
+                  h6(class="text-secondary") #{scripts.lectionary.gospelOptional.title}
+                  p(class="text-secondary") #{scripts.lectionary.gospelOptional.content}
+                if scripts.lectionary.gospelThree
+                  hr
+                  h6(class="text-secondary") #{scripts.lectionary.gospelThree.title}
+                  p(class="text-secondary") #{scripts.lectionary.gospelThree.content}
+        div(class="col")

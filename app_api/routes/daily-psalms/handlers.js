@@ -85,7 +85,10 @@ internals.getDailyPsalms = function (request, h){
 
     dailyPsalms.morningPsalms.push(DailyPsalms[dayName].morningPsalm);
     dailyPsalms.eveningPsalms = DailyPsalms[dayName].eveningPsalm;
-    return dailyPsalms;
+    return {
+        date,
+        dailyPsalms
+    };
 };
 
 module.exports = internals;

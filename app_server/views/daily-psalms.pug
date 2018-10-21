@@ -1,11 +1,22 @@
 extends layout
 block content
-    h2 #{title}
-    h4 #{scripts.morningPsalms[0].title}
-    div #{scripts.morningPsalms[0].content}
-    h4 #{scripts.morningPsalms[1].title}
-    div #{scripts.morningPsalms[1].content}
-    h4 #{scripts.eveningPsalms[0].title}
-    div #{scripts.eveningPsalms[0].content}
-    h4 #{scripts.eveningPsalms[1].title}
-    div #{scripts.eveningPsalms[1].content}
+    div(class="container")
+        div(class="col")
+        div(class="col")
+            div(class="card card-info" style="padding: 10px; margin-top: 20px;")
+                h4(class="card-title text-center") #{scripts.date}祷告诗篇
+            h5(style="margin-top: 20px;") 晨祷诗篇
+            div(class="border" style="padding: 10px;")
+                h6 #{scripts.dailyPsalms.morningPsalms[0].title}
+                p #{scripts.dailyPsalms.morningPsalms[0].content}
+                hr
+                h6 #{scripts.dailyPsalms.morningPsalms[1].title}
+                p #{scripts.dailyPsalms.morningPsalms[1].content}
+            h5(style="margin-top: 20px;") 晚祷诗篇
+            div(class="border" style="padding: 10px;")
+                h6 #{scripts.dailyPsalms.eveningPsalms[0].title}
+                p #{scripts.dailyPsalms.eveningPsalms[0].content}
+                hr
+                h6 #{scripts.dailyPsalms.eveningPsalms[1].title}
+                p #{scripts.dailyPsalms.eveningPsalms[1].content}
+        div(class="col")

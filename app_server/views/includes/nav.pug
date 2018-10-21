@@ -1,0 +1,21 @@
+div(class="container")
+    div(class="col")
+    div(class="col")
+        ul(class="nav justify-content-center")
+            li(class="nav-item")
+                a(class="nav-link text-dark" href="/") 首页
+            li(class="nav-item dropdown")
+                a(class="nav-link dropdown-toggle text-dark" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false") 主日经文
+                div(class="dropdown-menu")
+                    a(class="dropdown-item text-dark" href="/sunday-lectionary?series=one-year") 一年系列
+                    a(class="dropdown-item text-dark" href="/sunday-lectionary?series=three-year") 三年系列
+                    a(class="dropdown-item text-dark" href="/sunday-lectionary/presentation") The Presentation of Our Lord
+                    a(class="dropdown-item text-dark" href="/sunday-lectionary/reformation") Reformation Day
+                    a(class="dropdown-item text-dark" href="/sunday-lectionary/allSaints") All Saints' Day
+            li(class="nav-item")
+                a(class="nav-link text-dark" href="/daily-lectionary") 每日经文
+            li(class="nav-item")
+                a(class="nav-link text-dark" href="/daily-psalms") 祷告诗篇
+            li(class="nav-item")
+                a(class="nav-link text-dark" href="/books") 背诵经文
+    div(class="col")

@@ -1,6 +1,7 @@
 'use strict';
 
 const SundayLectionaryHandler = require('./handlers');
+const Festivals = require('../../data/reference.js').festivals;
 const Joi = require('joi');
 
 const internals = {};
@@ -15,8 +16,23 @@ internals.endpoints = [
             description: 'Get Sunday Lectionary',
             validate: {
                 query: Joi.object({
-                    series: Joi.string().allow('one-year','three-year').required(),
+                    series: Joi.string().valid('one-year','three-year').required(),
                     date:Joi.string().regex(/^((?:19|20)\d\d)-(0[1-9]|1[012])-(0[1-9]|[12][0-9]|3[01])$/).optional()
+                }).required(),
+                payload: false
+            }
+        }
+    },
+    {
+        method: 'GET',
+        path: '/api/holyscripts/sunday-lectionary/{festival}',
+        options: {
+            handler: SundayLectionaryHandler.getFestivalLectionary,
+            tags: ['api'],
+            description: 'Get Festival Lectionary',
+            validate: {
+                params: Joi.object({
+                    festival: Joi.string().valid(Festivals).required()
                 }).required(),
                 payload: false
             }

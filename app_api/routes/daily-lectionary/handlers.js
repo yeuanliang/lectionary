@@ -33,7 +33,10 @@ internals.getDailyLectionary = function (request, h){
         dateName = 'day' + theday.format('MM-DD');
     }
 
-    return DailyLectionary[dateName];
+    return {
+        date,
+        lectionary: DailyLectionary[dateName]
+    };
 };
 
 
