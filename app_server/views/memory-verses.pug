@@ -1,8 +1,8 @@
 extends layout
 block content
     div(class="container")
-        div(class="col")
-        div(class="col")
+      div(class="row justify-content-center")
+        div(class="col-12 col-md-8")
             div(class="border" style="padding: 10px; margin-top: 20px; margin-buttom: 20px;")
               if scripts.length > 0
                 each value,index in scripts
@@ -10,4 +10,3 @@ block content
                     p #{scripts[index].content}
                     if index < scripts.length - 1
                         hr
-        div(class="col")

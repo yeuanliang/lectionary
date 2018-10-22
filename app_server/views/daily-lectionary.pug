@@ -1,8 +1,8 @@
 extends layout
 block content
     div(class="container")
-        div(class="col")
-        div(class="col")
+      div(class="row justify-content-center")
+        div(class="col-12 col-md-8")
             div(class="card" style="padding: 10px; margin-top: 20px;")
                 h4(class="text-center") #{scripts.date}经文选
             h5(style="margin-top: 20px;") 旧约经文
@@ -13,4 +13,3 @@ block content
             div(class="border" style="padding: 10px;")
                 h6 #{scripts.lectionary.secondReading.title}
                 p #{scripts.lectionary.secondReading.content}
-        div(class="col")
