@@ -4,6 +4,7 @@ const Hapi = require('hapi');
 const Vision = require('vision');
 const Inert = require('inert');
 const Pug = require('pug');
+const Path = require('path');
 const HapiSwagger = require('hapi-swagger');
 const ApiRouters = require('./app_api/routes');
 const WebRouters = require('./app_server/routes');
@@ -17,7 +18,12 @@ internals.main = async () => {
 
     const server = Hapi.server({
         port: 3000,
-        host: 'localhost'
+        host: 'localhost',
+        routes: {
+            files: {
+                relativeTo: Path.join(__dirname, 'public')
+            }
+        }
     });
 
     const swaggerOptions = {
@@ -42,9 +48,16 @@ internals.main = async () => {
         path: `app_server/views/${internals.templatePath}`
     });
 
+    server.route({
+        method: 'GET',
+        path: '/favicon.png',
+        handler: function (request, h) {
+
+            return h.file('./images/favicon.png');
+        }
+    });
     server.route(ApiRouters.routes);
     server.route(WebRouters.routes);
-
     await server.start();
 
     console.log(`Server running at: ${server.info.uri}`);
