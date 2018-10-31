@@ -148,6 +148,39 @@ internals.routes = [
                 });
             }
         }
+    },
+    {
+        method:'GET',
+        path:'/sunday-collects',
+        options:{
+            handler : async (request, h) => {
+
+                let collects = {};
+                const url = 'http://localhost:3000/api/propers/sunday-collects';
+                const { res, payload } = await Wreck.get(url);
+                collects = JSON.parse(payload.toString());
+                return h.view('sunday-collects', {
+                    collects
+                });
+            }
+        }
+    },
+    {
+        method:'GET',
+        path:'/proper-prefaces',
+        options:{
+            handler : async (request, h) => {
+
+                let prefaces = {};
+                const url = 'http://localhost:3000/api/propers/proper-prefaces';
+                const { res, payload } = await Wreck.get(url);
+                prefaces = JSON.parse(payload.toString());
+                console.log(prefaces);
+                return h.view('proper-prefaces', {
+                    prefaces
+                });
+            }
+        }
     }
 ];
 

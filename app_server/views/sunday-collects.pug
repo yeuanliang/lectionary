@@ -1,0 +1,19 @@
+extends layout
+block content
+    div(class="container")
+      div(class="row justify-content-center")
+        div(class="col-12 col-md-8")
+          each value,key in collects
+            div(class="border" style="padding: 10px; margin-top: 20px; margin-buttom: 20px;")
+              if key === 'oneYear'
+                p One-Year Series
+              else
+                p Three-Year Series
+              p(class="card-text text-center") #{value.date} #{value.sundayName}
+              hr
+              p #{value.collect.en}
+              hr
+              if value.collect.zh !=''
+                p #{value.collect.zh}
+              else
+                p 暂无翻译

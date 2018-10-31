@@ -1,0 +1,15 @@
+extends layout
+block content
+    div(class="container")
+      div(class="row justify-content-center")
+        div(class="col-12 col-md-8")
+          each value,key in prefaces
+            div(class="border" style="padding: 10px; margin-top: 20px; margin-buttom: 20px;")
+                h6 #{key}
+                hr
+                p #{value.en}
+                hr
+                if value.zh !=''
+                  p #{value.zh}
+                else
+                  p 暂无翻译
