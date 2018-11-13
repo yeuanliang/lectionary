@@ -262,14 +262,11 @@ module.exports.sundaysAfterHolyTrinity = {
     ]
 };
 
-module.exports.festivals = [
-    'presentation',
-    'annunciation',
-    'reformation',
-    'allSaints'
-];
-
 module.exports.festivalsInfo = {
+    'circumcision':{
+        date: '01-01',
+        name: 'Circumcision and Name of Jesus'
+    },
     'presentation': {
         date: '02-02',
         name: 'The Purification of Mary and the Presentation of Our Lord'

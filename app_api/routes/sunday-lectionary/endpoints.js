@@ -1,7 +1,7 @@
 'use strict';
 
 const SundayLectionaryHandler = require('./handlers');
-const Festivals = require('../../data/reference.js').festivals;
+const FestivalsInfo = require('../../data/reference.js').festivalsInfo;
 const Joi = require('joi');
 
 const internals = {};
@@ -32,7 +32,7 @@ internals.endpoints = [
             description: 'Get Festival Lectionary',
             validate: {
                 params: Joi.object({
-                    festival: Joi.string().valid(Festivals).required()
+                    festival: Joi.string().valid(Object.keys(FestivalsInfo)).required()
                 }).required(),
                 payload: false
             }

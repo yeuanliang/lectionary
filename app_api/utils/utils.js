@@ -78,7 +78,7 @@ const sundaysOfOneYearSeries = function (beginYear) {
 
     if (christmas.day() === 0) {
         churchYearSundays.push('christmas');
-        churchYearSundays.push('circumcision');
+        churchYearSundays.push('christmas1');
     }
     else if (christmas.day() === 1) {
         churchYearSundays.push('christmas1');
@@ -180,7 +180,7 @@ const sundaysOfThreeYearSeries = function (beginYear) {
 
     if (christmas.day() === 0) {
         churchYearSundays.push('christmas');
-        churchYearSundays.push('circumcision');
+        churchYearSundays.push('christmas1');
     }
     else if (christmas.day() === 1) {
         churchYearSundays.push('christmas1');
