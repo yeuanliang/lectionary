@@ -118,6 +118,56 @@ internals.routes = [
     },
     {
         method:'GET',
+        path:'/sunday-propers',
+        options:{
+            handler : async (request, h) => {
+
+                const today = new Date();
+                const thisYear = today.getFullYear();
+                let propers = {};
+                let url = 'http://localhost:3000/api/propers/sunday-propers';
+                const series = request.query.series;
+                if (request.query.date){
+                    url = url + '?series=' + series + '&date=' + request.query.date;
+                }
+                else {
+                    url = url + '?series=' + series;
+                }
+
+                const { res, payload } = await Wreck.get(url);
+                propers = JSON.parse(payload.toString());
+                return h.view('sunday-propers', {
+                    series,
+                    year: thisYear,
+                    propers
+                });
+            }
+        }
+    },
+    {
+        method:'GET',
+        path:'/sunday-propers/{festival}',
+        options:{
+            handler : async (request, h) => {
+
+                const today = new Date();
+                const thisYear = today.getFullYear();
+                let propers = {};
+                let url = 'http://localhost:3000/api/propers/sunday-propers/';
+                const festival = request.params.festival;
+                url = url + festival;
+
+                const { res, payload } = await Wreck.get(url);
+                propers = JSON.parse(payload.toString());
+                return h.view('sunday-propers', {
+                    year: thisYear,
+                    propers
+                });
+            }
+        }
+    },
+    {
+        method:'GET',
         path:'/books',
         options:{
             handler : (request, h) => {

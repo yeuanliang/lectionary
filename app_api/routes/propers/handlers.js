@@ -2,13 +2,13 @@
 
 const AdventJS = require('advent-js');
 const Moment = require('moment');
-const SundayLectionary = require('../../data/sunday-lectionary.js');
+const SundayPropers = require('../../data/propers.js');
 const FestivalsInfo = require('../../data/reference.js').festivalsInfo;
 const Utils = require('../../utils/utils.js');
 
 const internals = {};
 
-internals.getSundayLectionary = function (request, h) {
+internals.getSundayPropers = function (request, h) {
 
     const series = request.query.series;
     let date = '';
@@ -56,20 +56,20 @@ internals.getSundayLectionary = function (request, h) {
     return {
         name: weekInfo.sundayName,
         date: weekInfo.date,
-        lectionary: SundayLectionary[seriesYear][weekInfo.sign]
+        propers: SundayPropers[seriesYear][weekInfo.sign]
     };
 };
 
-internals.getFestivalLectionary = function (request, h) {
+internals.getFestivalPropers = function (request, h) {
 
     const festival = request.params.festival;
     const date = FestivalsInfo[festival].date;
     const name = FestivalsInfo[festival].name;
-    const lectionary = SundayLectionary.festival[festival];
+    const propers = SundayPropers.festival[festival];
     return {
         date,
         name,
-        lectionary
+        propers
     };
 };
 

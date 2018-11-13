@@ -10,7 +10,7 @@ block content
                   h4(class="text-center") 节日经文
                 div(class="card-body") 
                   if series
-                    p(class="card-text text-center") #{series} series
+                    p(class="card-text text-center") #{series.toUpperCase()} SERIES
                     p(class="card-text text-center") #{scripts.date} #{scripts.name}
                   else
                     p(class="card-text text-center") #{scripts.date} #{scripts.name}
