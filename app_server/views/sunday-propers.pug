@@ -24,17 +24,17 @@ block content
             if propers.propers.verse
               h5(style="margin-top: 20px;") VERSE
               div(class="border" style="padding: 10px;")
-                  p #{propers.propers.verse}
+                  div #{propers.propers.verse}
             if propers.propers.tract
               h5(style="margin-top: 20px;") TRACT
               div(class="border" style="padding: 10px;")
-                  p #{propers.propers.verse}
-            h5(style="margin-top: 20px;") Hymn
+                  div #{propers.propers.tract}
+            h5(style="margin-top: 20px;") HYMN
             div(class="border" style="padding: 10px;")
                 each line in propers.propers.hymn.split(/\n/)
                   =line
                   <br>
             h5(style="margin-top: 20px;") OTHER
             div(class="border" style="padding: 10px;")
-                p color： #{propers.propers.color}
-                p preface： #{propers.propers.preface}
+                div color： #{propers.propers.color}
+                div preface： #{propers.propers.preface}

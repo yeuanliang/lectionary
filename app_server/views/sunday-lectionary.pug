@@ -10,43 +10,43 @@ block content
                   h4(class="text-center") 节日经文
                 div(class="card-body") 
                   if series
-                    p(class="card-text text-center") #{series.toUpperCase()} SERIES
-                    p(class="card-text text-center") #{scripts.date} #{scripts.name}
+                    div(class="card-text text-center") #{series.toUpperCase()} SERIES
+                    div(class="card-text text-center") #{scripts.date} #{scripts.name}
                   else
-                    p(class="card-text text-center") #{scripts.date} #{scripts.name}
+                    div(class="card-text text-center") #{scripts.date} #{scripts.name}
             h5(style="margin-top: 20px;") 第一读经
             div(class="border" style="padding: 10px;")
                 h6 #{scripts.lectionary.firstReading.title}
-                p #{scripts.lectionary.firstReading.content}
+                div #{scripts.lectionary.firstReading.content}
                 if scripts.lectionary.firstReadingOptional
                   hr
                   h6(class="text-secondary") #{scripts.lectionary.firstReadingOptional.title}
-                  p(class="text-secondary") #{scripts.lectionary.firstReadingOptional.content}
+                  div(class="text-secondary") #{scripts.lectionary.firstReadingOptional.content}
             h5(style="margin-top: 20px;") 诗篇
             div(class="border" style="padding: 10px;")
                 h6 #{scripts.lectionary.psalm.title}
-                p #{scripts.lectionary.psalm.content}
+                div #{scripts.lectionary.psalm.content}
                 if scripts.lectionary.psalmOptional
                   hr
                   h6(class="text-secondary") #{scripts.lectionary.psalmOptional.title}
-                  p(class="text-secondary") #{scripts.lectionary.psalmOptional.content}
+                  div(class="text-secondary") #{scripts.lectionary.psalmOptional.content}
             h5(style="margin-top: 20px;") 第二读经
             div(class="border" style="padding: 10px;")
                 h6 #{scripts.lectionary.secondReading.title}
-                p #{scripts.lectionary.secondReading.content}
+                div #{scripts.lectionary.secondReading.content}
                 if scripts.lectionary.secondReadingOptional
                   hr
                   h6(class="text-secondary") #{scripts.lectionary.secondReadingOptional.title}
-                  p(class="text-secondary") #{scripts.lectionary.secondReadingOptional.content}
+                  div(class="text-secondary") #{scripts.lectionary.secondReadingOptional.content}
             h5(style="margin-top: 20px;") 福音经文
             div(class="border" style="padding: 10px;")
                 h6 #{scripts.lectionary.gospel.title}
-                p #{scripts.lectionary.gospel.content}
+                div #{scripts.lectionary.gospel.content}
                 if scripts.lectionary.gospelOptional
                   hr
                   h6(class="text-secondary") #{scripts.lectionary.gospelOptional.title}
-                  p(class="text-secondary") #{scripts.lectionary.gospelOptional.content}
+                  div(class="text-secondary") #{scripts.lectionary.gospelOptional.content}
                 if scripts.lectionary.gospelThree
                   hr
                   h6(class="text-secondary") #{scripts.lectionary.gospelThree.title}
-                  p(class="text-secondary") #{scripts.lectionary.gospelThree.content}
+                  div(class="text-secondary") #{scripts.lectionary.gospelThree.content}

@@ -7,9 +7,9 @@ block content
             div(class="border" style="padding: 10px; margin-top: 20px; margin-buttom: 20px;")
                 h6 #{key}
                 hr
-                p #{value.en}
+                div #{value.en}
                 hr
                 if value.zh !=''
-                  p #{value.zh}
+                  div #{value.zh}
                 else
-                  p 暂无翻译
+                  div 暂无翻译
