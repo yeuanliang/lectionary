@@ -522,7 +522,7 @@ module.exports = {
                 'zh': ''
             },
             'proper29': {
-                'en': 'Lord Jesus Christ, so govern our hearts and minds by Your Holy Spirit that, ever mindful fo Your glorious return, we may persevere in both faith and holiness of living; for You live and reign with the Father and the Holy Spirit, one God, now and forever.',
+                'en': 'Lord Jesus Christ, so govern our hearts and minds by Your Holy Spirit that, ever mindful of Your glorious return, we may persevere in both faith and holiness of living; for You live and reign with the Father and the Holy Spirit, one God, now and forever.',
                 'zh': ''
             }
         },
