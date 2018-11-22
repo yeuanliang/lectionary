@@ -3,16 +3,18 @@ block content
     div(class="container")
       div(class="row justify-content-center")
         div(class="col-12 col-md-8")
-            div(class="card" style="padding: 10px; margin-top: 20px;")
-                if series
-                  h4(class="text-center") 主日经文
-                else
-                  h4(class="text-center") 节日经文
-                div(class="card-body") 
-                  if series
-                    div(class="card-text text-center") #{series.toUpperCase()} SERIES
+            div(style="padding: 10px; margin-top: 20px;")
+                div
+                  if scripts.series == 'one'
+                    h4(class="text-center") 主日经文
+                    div(class="card-text text-center") One-Year Series
+                    div(class="card-text text-center") #{scripts.date} #{scripts.name}
+                  else if scripts.series == 'festival'
+                    h4(class="text-center") 节日经文
                     div(class="card-text text-center") #{scripts.date} #{scripts.name}
                   else
+                    h4(class="text-center") 主日经文
+                    div(class="card-text text-center") Three-Year Series #{scripts.series.toUpperCase()}
                     div(class="card-text text-center") #{scripts.date} #{scripts.name}
             h5(style="margin-top: 20px;") 第一读经
             div(class="border" style="padding: 10px;")

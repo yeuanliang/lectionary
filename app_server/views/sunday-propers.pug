@@ -3,14 +3,25 @@ block content
     div(class="container")
       div(class="row justify-content-center")
         div(class="col-12 col-md-8")
-            div(class="card" style="padding: 10px; margin-top: 20px;")
+            div(style="padding: 10px; margin-top: 20px;")
                 h4(class="text-center") Propers of the Day
-                div(class="card-body") 
-                  if series
-                    p(class="card-text text-center") #{series.toUpperCase()} SERIES
-                    p(class="card-text text-center") #{propers.date} #{propers.name}
+                div
+                  if propers.series == 'one'
+                    div(class="card-text text-center") One-Year Series
+                    div(class="card-text text-center") #{propers.date} #{propers.name}
+                  else if propers.series == 'festival'
+                    div(class="card-text text-center") #{propers.date} #{propers.name}
                   else
-                    p(class="card-text text-center") #{propers.date} #{propers.name}
+                    div(class="card-text text-center") Three-Year Series #{propers.series.toUpperCase()}
+                    div(class="card-text text-center") #{propers.date} #{propers.name}
+            h5(style="margin-top: 20px;") COLLECT OF THE DAY
+            div(class="border" style="padding: 10px;")
+              div #{propers.collect.en}
+                hr
+                if propers.collect.zh !=''
+                  div #{propers.collect.zh}
+                else
+                  div 暂无翻译
             h5(style="margin-top: 20px;") INTROIT
             div(class="border" style="padding: 10px;")
                 each line in propers.propers.introit.split(/\n/)

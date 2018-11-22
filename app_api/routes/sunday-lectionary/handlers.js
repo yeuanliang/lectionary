@@ -54,6 +54,7 @@ internals.getSundayLectionary = function (request, h) {
     }
 
     return {
+        series: seriesYear,
         name: weekInfo.sundayName,
         date: weekInfo.date,
         lectionary: SundayLectionary[seriesYear][weekInfo.sign]
@@ -67,6 +68,7 @@ internals.getFestivalLectionary = function (request, h) {
     const name = FestivalsInfo[festival].name;
     const lectionary = SundayLectionary.festival[festival];
     return {
+        series:'festival',
         date,
         name,
         lectionary

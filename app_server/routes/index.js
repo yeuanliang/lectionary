@@ -87,7 +87,6 @@ internals.routes = [
                 const { res, payload } = await Wreck.get(url);
                 scripts = JSON.parse(payload.toString());
                 return h.view('sunday-lectionary', {
-                    series,
                     year: thisYear,
                     scripts
                 });
@@ -137,7 +136,6 @@ internals.routes = [
                 const { res, payload } = await Wreck.get(url);
                 propers = JSON.parse(payload.toString());
                 return h.view('sunday-propers', {
-                    series,
                     year: thisYear,
                     propers
                 });
@@ -195,38 +193,6 @@ internals.routes = [
                 scripts = JSON.parse(payload.toString());
                 return h.view('memory-verses', {
                     scripts
-                });
-            }
-        }
-    },
-    {
-        method:'GET',
-        path:'/sunday-collects',
-        options:{
-            handler : async (request, h) => {
-
-                let collects = {};
-                const url = 'http://localhost:3000/api/propers/sunday-collects';
-                const { res, payload } = await Wreck.get(url);
-                collects = JSON.parse(payload.toString());
-                return h.view('sunday-collects', {
-                    collects
-                });
-            }
-        }
-    },
-    {
-        method:'GET',
-        path:'/festival-collects',
-        options:{
-            handler : async (request, h) => {
-
-                let collects = {};
-                const url = 'http://localhost:3000/api/propers/festival-collects';
-                const { res, payload } = await Wreck.get(url);
-                collects = JSON.parse(payload.toString());
-                return h.view('festival-collects', {
-                    collects
                 });
             }
         }

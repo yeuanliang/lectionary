@@ -166,7 +166,6 @@ module.exports.sundaysBeforeHolyTrinity = {
     'christmasEve':'Christmas Eve',
     'christmas':'Christmas Day',
     'christmas1':'First Sunday after Christmas',
-    'circumcision':'Circumcision and Name of Jesus',
     'christmas2':'Second Sunday after Christmas',
     'epiphany':'The Epiphany of Our Lord',
     'baptism':'The Baptism of Our Lord',
