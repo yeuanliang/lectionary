@@ -197,7 +197,7 @@ module.exports = {
         palm: {
             color: '鲜红或紫罗兰色',
             preface: 'Holy Week',
-            introit: '耶和华啊，求你不要远｜离我\n我的救主啊，求你快来帮｜助我\n救我脱离狮子｜的口\n你已经应允我，使我脱离野牛｜的角\n我的神，我的神！为什么离｜弃我\n为什么远离不救我，不听我唉哼的｜言语\n凡看见我的都嗤｜笑我\n他们撇嘴摇｜头说\n他把自己交托耶和华，耶和华可以救｜他吧\n耶和华既喜悦他，可以搭救｜他吧\n求你不要远离我，因为急难临｜近了\n没有人帮｜助我\n耶和华啊，求你不要远｜离我\n我的救主啊，求你快来帮｜助我\n救我脱离狮子｜的口\n你已经应允我，使我脱离野牛｜的角\n',
+            introit: '耶和华啊，求你不要远｜离我\n我的救主啊，求你快来帮｜助我\n救我脱离狮子｜的口\n你已经应允我，使我脱离野牛｜的角\n我的神，我的神！为什么离｜弃我\n为什么远离不救我，不听我唉哼的｜言语\n凡看见我的都嗤｜笑我\n他们撇嘴摇｜头说\n他把自己交托耶和华，耶和华可以救｜他吧\n耶和华既喜悦他，可以搭救｜他吧\n求你不要远离我，因为急难临｜近了\n没有人帮｜助我\n耶和华啊，求你不要远｜离我\n我的救主啊，求你快来帮｜助我\n救我脱离狮子｜的口\n你已经应允我，使我脱离野牛｜的角',
             gradual: '你搀着我的｜右手\n你要以你的训言引导我，以后必接我到荣｜耀里\n神实在恩待以｜色列\n那些清心｜的人',
             tract: '我的神，我的神！为什么离｜弃我\n为什么远离不救我，不听我唉哼的｜言语\n我们的祖宗倚｜靠你\n他们倚靠你，你便解救｜他们\n他们哀求你，便蒙｜解救\n他们倚靠你，就不｜羞愧',
             hymn: '438 A Lamb goes uncomplaining forth'
@@ -495,7 +495,7 @@ module.exports = {
         advent1: {
             color: '蓝色或紫罗兰色',
             preface: 'Advent',
-            introit: '看哪，你的王来到你｜这里\n他是公义的，并且施行｜拯救\n耶和华啊，求你｜拯救\n耶和华啊，求你使我们｜亨通\n奉耶和华名来的是应当称｜颂的\n我们从耶和华的殿中为你们｜祝福\n耶和华是神，他光照了｜我们\n理当用绳索把祭牲拴住，牵到坛角｜那里\n你是我的神，我要称｜谢你\n你是我的神，我要尊｜崇你\n荣耀归于圣父圣子｜圣灵\n从起初到今时直到永远｜阿们\n荣耀归于圣父圣子｜圣灵\n从起初到今时直到永远｜阿们\n看哪，你的王来到你｜这里\n他是公义的，并且施行｜拯救\n',
+            introit: '看哪，你的王来到你｜这里\n他是公义的，并且施行｜拯救\n耶和华啊，求你｜拯救\n耶和华啊，求你使我们｜亨通\n奉耶和华名来的是应当称｜颂的\n我们从耶和华的殿中为你们｜祝福\n耶和华是神，他光照了｜我们\n理当用绳索把祭牲拴住，牵到坛角｜那里\n你是我的神，我要称｜谢你\n你是我的神，我要尊｜崇你\n荣耀归于圣父圣子｜圣灵\n从起初到今时直到永远｜阿们\n荣耀归于圣父圣子｜圣灵\n从起初到今时直到永远｜阿们\n看哪，你的王来到你｜这里\n他是公义的，并且施行｜拯救',
             gradual: '锡安的民哪，应当大大｜喜乐\n耶路撒冷的民哪，应当｜欢呼\n看哪，你的王来到你｜这里\n他是公义的，并且施行｜拯救\n奉耶和华名来的是应当称｜颂的\n我们从耶和华的殿中为你们｜祝福',
             verse: '哈利路亚。众城门哪，你们要抬起头来！永久的门户，你们要被举起！那荣耀的王将要进来。哈利路亚。',
             hymn: '332 Savior of the nations, come'
@@ -751,7 +751,7 @@ module.exports = {
         pentecost: {
             color: '红色',
             preface: 'Pentecost',
-            introit: 'Come, Holy spirit, fill the hearts of the｜faithful\nand kindle in them the fire of your love. Alle-｜luia\n耶和华啊，你所造的何其多，都是你用智慧造｜成的\n遍地满了你的｜丰富\n这都仰｜望你\n按时给它｜食物\n你给它们，它们便拾｜起来\n你张手，它们饱得｜美食\n你发出你的灵，它们便｜受造\n你使地面更换｜为新\n荣耀归于圣父圣子｜圣灵\n从起初到今时直到永远｜阿们\nCome, Holy spirit, fill the hearts of the｜faithful\nand kindle in them the fire of your love. Alle-｜luia\n',
+            introit: 'Come, Holy spirit, fill the hearts of the｜faithful\nand kindle in them the fire of your love. Alle-｜luia\n耶和华啊，你所造的何其多，都是你用智慧造｜成的\n遍地满了你的｜丰富\n这都仰｜望你\n按时给它｜食物\n你给它们，它们便拾｜起来\n你张手，它们饱得｜美食\n你发出你的灵，它们便｜受造\n你使地面更换｜为新\n荣耀归于圣父圣子｜圣灵\n从起初到今时直到永远｜阿们\nCome, Holy spirit, fill the hearts of the｜faithful\nand kindle in them the fire of your love. Alle-｜luia',
             gradual: '我要将我的灵浇灌凡有血｜气的\n你们的儿女要说｜预言\n因为人心里相信，就可以｜称义\n口里承认，就可以｜得救',
             verse: '哈利路亚。Come, Holy Spirit, fill the hearts of the faithful, and kindle in them the fire of your love.哈利路亚。',
             hymn: '497 Come, Holy Ghost, God and Lord'
@@ -759,7 +759,7 @@ module.exports = {
         holyTrinity: {
             color: '白色',
             preface: 'Holy Trinity',
-            introit: 'Blessed be the Holy Trinity and the undivided | Unity\nLet us give glory to him because he has shown his mer- | cy to us\n我将耶和华常摆在我｜面前\n因他在我右边，我便不至｜摇动\n因此，我的心欢喜，我的灵｜快乐\n我的肉身也要安然｜居住\n因为你必不将我的灵魂撇在｜阴间\n也不叫你的圣者见｜朽坏\n你必将生命的道路指｜示我\n在你面前有满足的喜乐，在你右手中有永远的｜福乐\n荣耀归于圣父圣子｜圣灵\n从起初到今时直到永远｜阿们\nBlessed be the Holy Trinity and the undivided | Unity\nLet us give glory to him because he has shown his mer- | cy to us\n',
+            introit: 'Blessed be the Holy Trinity and the undivided | Unity\nLet us give glory to him because he has shown his mer- | cy to us\n我将耶和华常摆在我｜面前\n因他在我右边，我便不至｜摇动\n因此，我的心欢喜，我的灵｜快乐\n我的肉身也要安然｜居住\n因为你必不将我的灵魂撇在｜阴间\n也不叫你的圣者见｜朽坏\n你必将生命的道路指｜示我\n在你面前有满足的喜乐，在你右手中有永远的｜福乐\n荣耀归于圣父圣子｜圣灵\n从起初到今时直到永远｜阿们\nBlessed be the Holy Trinity and the undivided | Unity\nLet us give glory to him because he has shown his mer- | cy to us',
             gradual: '耶和华本为大，该受大｜赞美\n其大无法｜测度\n我要默念你你奇妙的｜作为\n我也要传扬你的｜大德',
             verse: '哈利路亚。圣哉！圣哉！圣哉！万军之耶和华，他的荣光充满全地！哈利路亚。',
             hymn: '498/499 Come, Holy Ghost, Creator blest'
@@ -985,7 +985,7 @@ module.exports = {
         advent1: {
             color: '蓝色或紫罗兰色',
             preface: 'Advent',
-            introit: '看哪，你的王来到你｜这里\n他是公义的，并且施行｜拯救\n耶和｜华啊\n我的心仰｜望你\n2我的神啊，我素来倚｜靠你\n求你不要叫我羞愧，不要叫我的仇敌向我｜夸胜\n凡等候你的必不｜羞愧\n惟有那无故行奸诈的必要｜羞愧\n荣耀归于圣父圣子｜圣灵\n从起初到今时直到永远｜阿们\n看哪，你的王来到你｜这里\n他是公义的，并且施行｜拯救\n',
+            introit: '看哪，你的王来到你｜这里\n他是公义的，并且施行｜拯救\n耶和｜华啊\n我的心仰｜望你\n2我的神啊，我素来倚｜靠你\n求你不要叫我羞愧，不要叫我的仇敌向我｜夸胜\n凡等候你的必不｜羞愧\n惟有那无故行奸诈的必要｜羞愧\n荣耀归于圣父圣子｜圣灵\n从起初到今时直到永远｜阿们\n看哪，你的王来到你｜这里\n他是公义的，并且施行｜拯救',
             gradual: '锡安的民哪，应当大大｜喜乐\n耶路撒冷的民哪，应当｜欢呼\n看哪，你的王来到你｜这里\n他是公义的，并且施行｜拯救\n奉耶和华名来的是应当称｜颂的\n我们从耶和华的殿中为你们｜祝福',
             verse: '哈利路亚。众城门哪，你们要抬起头来！永久的门户，你们要被举起！那荣耀的王将要进来。哈利路亚。',
             hymn: '332 Savior of the nations, come'
@@ -1241,7 +1241,7 @@ module.exports = {
         pentecost: {
             color: '红色',
             preface: 'Pentecost',
-            introit: 'Come, Holy spirit, fill the hearts of the｜faithful\nand kindle in them the fire of your love. Alle-｜luia\n耶和华啊，你所造的何其多，都是你用智慧造｜成的\n遍地满了你的｜丰富\n这都仰｜望你\n按时给它｜食物\n你给它们，它们便拾｜起来\n你张手，它们饱得｜美食\n你发出你的灵，它们便｜受造\n你使地面更换｜为新\n荣耀归于圣父圣子｜圣灵\n从起初到今时直到永远｜阿们\nCome, Holy spirit, fill the hearts of the｜faithful\nand kindle in them the fire of your love. Alle-｜luia\n',
+            introit: 'Come, Holy spirit, fill the hearts of the｜faithful\nand kindle in them the fire of your love. Alle-｜luia\n耶和华啊，你所造的何其多，都是你用智慧造｜成的\n遍地满了你的｜丰富\n这都仰｜望你\n按时给它｜食物\n你给它们，它们便拾｜起来\n你张手，它们饱得｜美食\n你发出你的灵，它们便｜受造\n你使地面更换｜为新\n荣耀归于圣父圣子｜圣灵\n从起初到今时直到永远｜阿们\nCome, Holy spirit, fill the hearts of the｜faithful\nand kindle in them the fire of your love. Alle-｜luia',
             gradual: '我要将我的灵浇灌凡有血｜气的\n你们的儿女要说｜预言\n因为人心里相信，就可以｜称义\n口里承认，就可以｜得救',
             verse: '哈利路亚。Come, Holy Spirit, fill the hearts of the faithful, and kindle in them the fire of your love.哈利路亚。',
             hymn: '497 Come, Holy Ghost, God and Lord'
@@ -1249,7 +1249,7 @@ module.exports = {
         holyTrinity: {
             color: '白色',
             preface: 'Holy Trinity',
-            introit: 'Blessed be the Holy Trinity and the undivided | Unity\nLet us give glory to him because he has shown his mer- | cy to us\n我将耶和华常摆在我｜面前\n因他在我右边，我便不至｜摇动\n因此，我的心欢喜，我的灵｜快乐\n我的肉身也要安然｜居住\n因为你必不将我的灵魂撇在｜阴间\n也不叫你的圣者见｜朽坏\n你必将生命的道路指｜示我\n在你面前有满足的喜乐，在你右手中有永远的｜福乐\n荣耀归于圣父圣子｜圣灵\n从起初到今时直到永远｜阿们\nBlessed be the Holy Trinity and the undivided | Unity\nLet us give glory to him because he has shown his mer- | cy to us\n',
+            introit: 'Blessed be the Holy Trinity and the undivided | Unity\nLet us give glory to him because he has shown his mer- | cy to us\n我将耶和华常摆在我｜面前\n因他在我右边，我便不至｜摇动\n因此，我的心欢喜，我的灵｜快乐\n我的肉身也要安然｜居住\n因为你必不将我的灵魂撇在｜阴间\n也不叫你的圣者见｜朽坏\n你必将生命的道路指｜示我\n在你面前有满足的喜乐，在你右手中有永远的｜福乐\n荣耀归于圣父圣子｜圣灵\n从起初到今时直到永远｜阿们\nBlessed be the Holy Trinity and the undivided | Unity\nLet us give glory to him because he has shown his mer- | cy to us',
             gradual: '耶和华本为大，该受大｜赞美\n其大无法｜测度\n我要默念你你奇妙的｜作为\n我也要传扬你的｜大德',
             verse: '哈利路亚。圣哉！圣哉！圣哉！万军之耶和华，他的荣光充满全地！哈利路亚。',
             hymn: '498/499 Come, Holy Ghost, Creator blest'
@@ -1475,7 +1475,7 @@ module.exports = {
         advent1: {
             color: '蓝色或紫罗兰色',
             preface: 'Advent',
-            introit: '看哪，你的王来到你｜这里\n他是公义的，并且施行｜拯救\n在天空谁能比耶和｜华呢\n神的众子中，谁能像耶和｜华呢\n公义和公平是你宝座的｜根基\n慈爱和诚实行在你｜前面\n知道向你欢呼的，那民是有｜福的\n耶和华啊，他们在你脸上的光里｜行走\n他们因你的名终日｜欢乐\n因你的公义得以｜高举\n我们的盾牌属耶｜和华\n我们的王属以色列的｜圣者\n荣耀归于圣父圣子｜圣灵\n从起初到今时直到永远｜阿们\n看哪，你的王来到你｜这里\n他是公义的，并且施行｜拯救\n',
+            introit: '看哪，你的王来到你｜这里\n他是公义的，并且施行｜拯救\n在天空谁能比耶和｜华呢\n神的众子中，谁能像耶和｜华呢\n公义和公平是你宝座的｜根基\n慈爱和诚实行在你｜前面\n知道向你欢呼的，那民是有｜福的\n耶和华啊，他们在你脸上的光里｜行走\n他们因你的名终日｜欢乐\n因你的公义得以｜高举\n我们的盾牌属耶｜和华\n我们的王属以色列的｜圣者\n荣耀归于圣父圣子｜圣灵\n从起初到今时直到永远｜阿们\n看哪，你的王来到你｜这里\n他是公义的，并且施行｜拯救',
             gradual: '锡安的民哪，应当大大｜喜乐\n耶路撒冷的民哪，应当｜欢呼\n看哪，你的王来到你｜这里\n他是公义的，并且施行｜拯救\n奉耶和华名来的是应当称｜颂的\n我们从耶和华的殿中为你们｜祝福',
             verse: '哈利路亚。众城门哪，你们要抬起头来！永久的门户，你们要被举起！那荣耀的王将要进来。哈利路亚。',
             hymn: '332 Savior of the nations, come'
@@ -1731,7 +1731,7 @@ module.exports = {
         pentecost: {
             color: '红色',
             preface: 'Pentecost',
-            introit: 'Come, Holy spirit, fill the hearts of the｜faithful\nand kindle in them the fire of your love. Alle-｜luia\n耶和华啊，你所造的何其多，都是你用智慧造｜成的\n遍地满了你的｜丰富\n这都仰｜望你\n按时给它｜食物\n你给它们，它们便拾｜起来\n你张手，它们饱得｜美食\n你发出你的灵，它们便｜受造\n你使地面更换｜为新\n荣耀归于圣父圣子｜圣灵\n从起初到今时直到永远｜阿们\nCome, Holy spirit, fill the hearts of the｜faithful\nand kindle in them the fire of your love. Alle-｜luia\n',
+            introit: 'Come, Holy spirit, fill the hearts of the｜faithful\nand kindle in them the fire of your love. Alle-｜luia\n耶和华啊，你所造的何其多，都是你用智慧造｜成的\n遍地满了你的｜丰富\n这都仰｜望你\n按时给它｜食物\n你给它们，它们便拾｜起来\n你张手，它们饱得｜美食\n你发出你的灵，它们便｜受造\n你使地面更换｜为新\n荣耀归于圣父圣子｜圣灵\n从起初到今时直到永远｜阿们\nCome, Holy spirit, fill the hearts of the｜faithful\nand kindle in them the fire of your love. Alle-｜luia',
             gradual: '我要将我的灵浇灌凡有血｜气的\n你们的儿女要说｜预言\n因为人心里相信，就可以｜称义\n口里承认，就可以｜得救',
             verse: '哈利路亚。Come, Holy Spirit, fill the hearts of the faithful, and kindle in them the fire of your love.哈利路亚。',
             hymn: '497 Come, Holy Ghost, God and Lord'
@@ -1739,7 +1739,7 @@ module.exports = {
         holyTrinity: {
             color: '白色',
             preface: 'Holy Trinity',
-            introit: 'Blessed be the Holy Trinity and the undivided | Unity\nLet us give glory to him because he has shown his mer- | cy to us\n我将耶和华常摆在我｜面前\n因他在我右边，我便不至｜摇动\n因此，我的心欢喜，我的灵｜快乐\n我的肉身也要安然｜居住\n因为你必不将我的灵魂撇在｜阴间\n也不叫你的圣者见｜朽坏\n你必将生命的道路指｜示我\n在你面前有满足的喜乐，在你右手中有永远的｜福乐\n荣耀归于圣父圣子｜圣灵\n从起初到今时直到永远｜阿们\nBlessed be the Holy Trinity and the undivided | Unity\nLet us give glory to him because he has shown his mer- | cy to us\n',
+            introit: 'Blessed be the Holy Trinity and the undivided | Unity\nLet us give glory to him because he has shown his mer- | cy to us\n我将耶和华常摆在我｜面前\n因他在我右边，我便不至｜摇动\n因此，我的心欢喜，我的灵｜快乐\n我的肉身也要安然｜居住\n因为你必不将我的灵魂撇在｜阴间\n也不叫你的圣者见｜朽坏\n你必将生命的道路指｜示我\n在你面前有满足的喜乐，在你右手中有永远的｜福乐\n荣耀归于圣父圣子｜圣灵\n从起初到今时直到永远｜阿们\nBlessed be the Holy Trinity and the undivided | Unity\nLet us give glory to him because he has shown his mer- | cy to us',
             gradual: '这道离你不远，正在你口里，在你｜心里\n就是我们所传信主｜的道\n因为人心里相信，就可以｜称义\n口里承认，就可以｜得救',
             verse: '哈利路亚。圣哉！圣哉！圣哉！万军之耶和华，他的荣光充满全地！哈利路亚。',
             hymn: '498/499 Come, Holy Ghost, Creator blest'
