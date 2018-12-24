@@ -932,7 +932,7 @@ module.exports = {
             }
         ]
     },
-    'd12-24': {
+    'day12-24': {
         morningPsalm: {
             title: '诗19',
             content:
@@ -951,7 +951,7 @@ module.exports = {
             }
         ]
     },
-    'd12-25': {
+    'day12-25': {
         morningPsalm: {
             title: '诗2',
             content:
@@ -970,7 +970,7 @@ module.exports = {
             }
         ]
     },
-    'd12-26': {
+    'day12-26': {
         morningPsalm: {
             title: '诗116',
             content:
@@ -989,7 +989,7 @@ module.exports = {
             }
         ]
     },
-    'd12-27': {
+    'day12-27': {
         morningPsalm: {
             title: '诗34',
             content:
@@ -1008,7 +1008,7 @@ module.exports = {
             }
         ]
     },
-    'd12-28': {
+    'day12-28': {
         morningPsalm: {
             title: '诗2',
             content:
@@ -1027,7 +1027,7 @@ module.exports = {
             }
         ]
     },
-    'd12-29': {
+    'day12-29': {
         morningPsalm: {
             title: '诗96',
             content:
@@ -1046,7 +1046,7 @@ module.exports = {
             }
         ]
     },
-    'd12-30': {
+    'day12-30': {
         morningPsalm: {
             title: '诗93',
             content:
@@ -1065,7 +1065,7 @@ module.exports = {
             }
         ]
     },
-    'd12-31': {
+    'day12-31': {
         morningPsalm: {
             title: '诗98',
             content:
@@ -1084,7 +1084,7 @@ module.exports = {
             }
         ]
     },
-    'd01-01': {
+    'day01-01': {
         morningPsalm: {
             title: '诗97',
             content:
@@ -1103,7 +1103,7 @@ module.exports = {
             }
         ]
     },
-    'd01-02': {
+    'day01-02': {
         morningPsalm: {
             title: '诗48',
             content:
@@ -1122,7 +1122,7 @@ module.exports = {
             }
         ]
     },
-    'd01-03': {
+    'day01-03': {
         morningPsalm: {
             title: '诗111',
             content:
@@ -1141,7 +1141,7 @@ module.exports = {
             }
         ]
     },
-    'd01-04': {
+    'day01-04': {
         morningPsalm: {
             title: '诗103',
             content:
@@ -1160,7 +1160,7 @@ module.exports = {
             }
         ]
     },
-    'd01-05': {
+    'day01-05': {
         morningPsalm: {
             title: '诗99',
             content:
@@ -1179,7 +1179,7 @@ module.exports = {
             }
         ]
     },
-    'd01-06': {
+    'day01-06': {
         morningPsalm: {
             title: '诗72',
             content:
