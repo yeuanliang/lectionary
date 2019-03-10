@@ -15,7 +15,7 @@ module.exports = {
     },
     'baptism':{
         en:'It is truly good, right, and salutary that we should at all times and in all places give thanks to You, holy Lord, almighty Father, everlasting God, through Jesus Christ, our Lord; for at His Baptism Your voice from heaven revealed Him as Your beloved Son, and the Holy Spirit descended on Him, confirming Him to be the Christ. Therefore with angels and archangels and with all the company of heaven we laud and magnify Your glorious name, evermore praising You and saying:',
-        zh:''
+        zh:'我们应当随时随地，全心全意籍着我主耶稣基督感谢你，圣洁的主，全能的父，永在的上帝，这是好的，合宜的和有益的，耶稣在受洗的时候，你的声音从天上宣告他是你的爱子，圣灵降临在他身上，认定他是基督。因此，我们同著众天使、天使长，和天军，一同赞美尊崇袮荣耀的名，永远赞美袮说：'
     },
     'transfiguration':{
         en:'It is truly good, right, and salutary that we should at all times and in all places give thanks to You, holy Lord, almighty Father, everlasting God, through Jesus Christ, our Lord, who at His transfiguration revealed His glory to His disciples that they might be strengthened to proclaim His cross and resurrection and with all the faithful look forward to the glory of life everlasting. Therefore with angels and archangels and with all the company of heaven we laud and magnify Your glorious name, evermore praising You and saying:',

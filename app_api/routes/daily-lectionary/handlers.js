@@ -20,12 +20,11 @@ internals.getDailyLectionary = function (request, h){
 
     const theYear = date.substring(0,4);
     const theday = Moment(date);
-    const adventSunday = AdventJS.adventSunday(theYear);
     const ashWednesday = AdventJS.ashWednesday(theYear);
     const pentecost = AdventJS.pentecost(theYear);
     const holyTrinity = pentecost.add(7, 'd');
     let dateName = '';
-    if (theday >= adventSunday && theday <= holyTrinity) {
+    if (theday >= ashWednesday && theday <= holyTrinity) {
         const index = theday.diff(ashWednesday, 'days');
         dateName = MovableDays[index];
     }
