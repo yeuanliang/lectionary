@@ -16,7 +16,7 @@ internals.endpoints = [
             description: 'Get Sunday Propers',
             validate: {
                 query: Joi.object({
-                    series: Joi.string().valid('one-year','three-year').required(),
+                    series: Joi.string().valid('one-year','three-year','special').required(),
                     date:Joi.string().regex(/^((?:19|20)\d\d)-(0[1-9]|1[012])-(0[1-9]|[12][0-9]|3[01])$/).optional()
                 }).required(),
                 payload: false

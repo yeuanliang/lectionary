@@ -60,6 +60,14 @@ internals.getSundayPropers = function (request, h) {
             collect = Collects.same[weekInfo.sign];
         }
     }
+    else if ( series === 'special'){
+        return {
+            series: 'special',
+            name: 'The Baptism of Our Lord',
+            collect: Collects.same.baptism,
+            propers: SundayPropers.one.baptism
+        };
+    }
     else {
         if (nextAdventSunday.diff(theDay,'days') > 6){
             seriesYear = Utils.yearSeries(theYear);

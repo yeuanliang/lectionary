@@ -9,6 +9,9 @@ block content
                   if propers.series == 'one'
                     div(class="card-text text-center") One-Year Series
                     div(class="card-text text-center") #{propers.date} #{propers.name}
+                  else if propers.series == 'special'
+                    div(class="card-text text-center") One-Year Series
+                    div(class="card-text text-center") #{propers.name}
                   else if propers.series == 'festival'
                     div(class="card-text text-center") #{propers.date} #{propers.name}
                   else

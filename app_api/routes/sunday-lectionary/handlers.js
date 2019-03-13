@@ -39,6 +39,15 @@ internals.getSundayLectionary = function (request, h) {
             weekInfo = weeks[0];
         }
     }
+    else if (series === 'special') {
+        const name = 'Baptism of Our Lord';
+        const lectionary = SundayLectionary.one.baptism;
+        return {
+            series:'special',
+            name,
+            lectionary
+        };
+    }
     else {
         if (nextAdventSunday.diff(theDay,'days') > 6){
             seriesYear = Utils.yearSeries(theYear);
