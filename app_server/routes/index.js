@@ -54,7 +54,7 @@ internals.routes = [
                 let scripts = {};
                 let url = 'http://localhost:3000/api/holyscripts/daily-psalms';
                 if (request.query.date){
-                    url = url + '&date=' + request.query.date;
+                    url = url + '?date=' + request.query.date;
                 }
 
                 const { res, payload } = await Wreck.get(url);

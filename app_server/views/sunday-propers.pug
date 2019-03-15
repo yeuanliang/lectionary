@@ -17,6 +17,10 @@ block content
                   else
                     div(class="card-text text-center") Three-Year Series #{propers.series.toUpperCase()}
                     div(class="card-text text-center") #{propers.date} #{propers.name}
+            if scripts.series != 'festival'
+              div(class="row justify-content-center")
+                  div(class="col-6 col-md-4")
+                      input(type="text" class="form-control text-center" placeholder="转到指定日期")
             h5(style="margin-top: 20px;") COLLECT OF THE DAY
             div(class="border" style="padding: 10px;")
               div #{propers.collect.en}

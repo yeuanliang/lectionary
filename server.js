@@ -56,6 +56,29 @@ internals.main = async () => {
             return h.file('./images/favicon.png');
         }
     });
+    server.route({
+        method: 'GET',
+        path: '/js/{path*}',
+        handler: {
+
+            directory: {
+                path: './js',
+                redirectToSlash: false
+            }
+        }
+    });
+
+    server.route({
+        method: 'GET',
+        path: '/css/{path*}',
+        handler: {
+
+            directory: {
+                path: './css',
+                redirectToSlash: false
+            }
+        }
+    });
     server.route(ApiRouters.routes);
     server.route(WebRouters.routes);
     await server.start();
