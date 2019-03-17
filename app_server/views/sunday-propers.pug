@@ -17,7 +17,7 @@ block content
                   else
                     div(class="card-text text-center") Three-Year Series #{propers.series.toUpperCase()}
                     div(class="card-text text-center") #{propers.date} #{propers.name}
-            if propers.series != 'festival'
+            if propers.series != 'special' && propers.series != 'festival'
               div(class="row justify-content-center")
                   div(class="col-6 col-md-4")
                       input(type="text" class="form-control text-center" placeholder="转到指定日期")

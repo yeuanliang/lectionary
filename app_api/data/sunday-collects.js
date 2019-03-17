@@ -40,7 +40,7 @@ module.exports = {
         },
         'baptism': {
             'en': 'Father in heaven, at the Baptism of Jeseus in the Jordan River You proclaimed Him Your beloved Son and anointed Him with the Holy Spirit. Make all who are baptized in His name faithful in their calling as Your children and inheritors with Him of everlasting life; through the same Jesus Christ, our Lord, who lives and reigns with You and the Holy Spirit, one God, now and forever.',
-            'zh': '天父，耶稣在约旦河里受洗的时候，你宣告耶稣是你的爱子，并且用圣灵膏他。求你使所有奉耶稣的名受洗的人而成为你的儿女的人都能在你的呼召中有信心， 使他们能和耶稣共同承受永生。奉我们主耶稣基督的名， 他与你和圣灵同是一位上帝，活著掌权，从今时直到永远。'
+            'zh': '天父，耶稣在约旦河里受洗的时候，你宣告耶稣是你的爱子，并且用圣灵膏他。求你使所有奉耶稣的名受洗的人而成为你的儿女的人都能在你的呼召中有信心， 使他们能和耶稣共同承受永生。奉我们主耶稣基督的名， 他与你和圣灵同是一位上帝，活着掌权，从今时直到永远。'
         },
         'epiphany1': {
             'en': 'O Lord, mercifully receive the prayers of Your people who call upon You and grant that they both perceive and know what things they ought to do and also may have grace and power faithfully to fulfill the same; through Jesus Christ, Your Son, our Lord, who lives and reigns with You and the Holy Spirit, one God, now and forever.',
@@ -100,7 +100,7 @@ module.exports = {
         },
         'lent2': {
             'en': 'O God, You see that of ourselves we have no strength. By Your mighty power defend us from all adversities that may happen to the body and from all evil thoughts that may assault and hurt the soul; through Jesus Christ, Your Son, our Lord, who lives and reigns with You and the Holy Spirit, one God, now and forever.',
-            'zh': '主，你知道靠我们自己我们没有力量，求你用你的大能保守我们免于伤害我们身体的种种灾祸和攻击、苦害灵魂的诸班恶念。奉你的儿子，我们的主，耶稣基督的名，他与你和圣灵同是一位上帝，活着掌权，从今时直到永远。'
+            'zh': '主，你知道靠我们自己我们没有力量，求你用你的大能保守我们免于伤害我们身体的种种灾祸和攻击、苦害灵魂的诸般恶念。奉你的儿子，我们的主，耶稣基督的名，他与你和圣灵同是一位上帝，活着掌权，从今时直到永远。'
         },
         'lent3': {
             'en': 'O God, whose glory it is always to have mercy, be gracious to all who have gone astray from Your ways and bring them again with penitent hearts and steadfast faith to embrace and hold fast the unchangeable truth of Your Word; through Jesus Christ, Your Son, our Lord, who lives and reigns with You and the Holy Spirit, one God, now and forever.',

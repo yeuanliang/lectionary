@@ -20,7 +20,7 @@ block content
                     h4(class="text-center") 主日经文
                     div(class="card-text text-center") Three-Year Series #{scripts.series.toUpperCase()}
                     div(class="card-text text-center") #{scripts.date} #{scripts.name}
-            if scripts.series != 'festival'
+            if scripts.series != 'special' && scripts.series != 'festival'
               div(class="row justify-content-center")
                   div(class="col-6 col-md-4")
                       input(type="text" class="form-control text-center" placeholder="转到指定日期")
