@@ -46,7 +46,9 @@ block content
             if propers.propers.tract
               h5(style="margin-top: 20px;") TRACT
               div(class="border" style="padding: 10px;")
-                  div #{propers.propers.tract}
+                  each line in propers.propers.tract.split(/\n/)
+                    =line
+                    <br>
             h5(style="margin-top: 20px;") HYMN
             div(class="border" style="padding: 10px;")
                 each line in propers.propers.hymn.split(/\n/)
