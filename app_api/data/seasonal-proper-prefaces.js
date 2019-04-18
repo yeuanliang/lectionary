@@ -31,7 +31,7 @@ module.exports = {
     },
     'easter':{
         en:'It is truly good, right, and salutary that we should at all times and in all places give thanks to You, holy Lord, almighty Father, everlasting God. And most especially are we bound to praise You on this day for the glorious resurrection of Your Son, Jesus Christ, the very Paschal Lamb, who was sacrificed for us and bore the sins of the world. By His dying He has destroyed death, and by His rising again He has restored to us everlasting life. Therefore with Mary Magdalene, Peter and John, and with all the witnesses of the resurrection, with angels and archangels, with all the company of heaven we laud and magnify Your glorious name, evermore praising You and saying:',
-        zh:'我们应当随时随地，全心全意感谢你，圣洁的主，全能的父，永在的上帝，这是好的，合宜的和有益的，今天我们特别要赞美你，因为你的儿子耶稣基督逾越节的羔羊，他为我们和整个世界的罪而牺牲，藉着他自己的死，他摧毁了死亡，藉着他的复活，他给我们恢复了永恒的生命。所以我们同著抹大拉的玛丽亚、彼得、约翰和所有复活的见证人、天使、天使长、众天军，歌颂尊崇袮荣耀的名，永远赞美袮说：'
+        zh:'我们应当随时随地，全心全意感谢你，圣洁的主，全能的父，永在的上帝，这是好的，合宜的和有益的，今天我们特别要赞美你，因为你的儿子耶稣基督逾越节的羔羊，他为我们和整个世界的罪而牺牲，藉着他自己的死，他摧毁了死亡，藉着他的复活，他给我们恢复了永恒的生命。所以我们同著抹大拉的玛利亚、彼得、约翰和所有复活的见证人、天使、天使长、众天军，歌颂尊崇袮荣耀的名，永远赞美袮说：'
     },
     'ascension':{
         en:'It is truly good, right, and salutary that we should at all times and in all places give thanks to You, holy Lord, almighty Father, everlasting God, through Jesus Christ, our Lord, who after His resurrection appeared openly to all His disciples and in their sight was taken up into heaven that He might make us partakers of His divine life. Therefore with angels and archangels and with all the company of heaven we laud and magnify Your glorious name, evermore praising You and saying:',
