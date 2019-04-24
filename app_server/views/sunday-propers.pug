@@ -34,11 +34,12 @@ block content
                 each line in propers.propers.introit.split(/\n/)
                   =line
                   <br>
-            h5(style="margin-top: 20px;") GRADUAL
-            div(class="border" style="padding: 10px;")
-                each line in propers.propers.gradual.split(/\n/)
-                  =line
-                  <br>
+            if propers.propers.gradual
+              h5(style="margin-top: 20px;") GRADUAL
+              div(class="border" style="padding: 10px;")
+                  each line in propers.propers.gradual.split(/\n/)
+                    =line
+                    <br>
             if propers.propers.verse
               h5(style="margin-top: 20px;") VERSE
               div(class="border" style="padding: 10px;")
