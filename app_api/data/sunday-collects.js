@@ -177,11 +177,11 @@ module.exports = {
             'zh': ''
         },
         'reformation': {
-            'en': 'Almight and gracious Lord, pour out Your Holy Spirit on Your faithful people. Keep us steadfast in Your grace and truth, protect and deliver us in times of temptation, defend us against all enemies, and grant to Your Church Your saving peace; through Jesus Christ, Your Son, our Lord, who lives and reigns with You and the Holy Spirit, one God, now and forever.',
+            'en': 'Almighty and gracious Lord, pour out Your Holy Spirit on Your faithful people. Keep us steadfast in Your grace and truth, protect and deliver us in times of temptation, defend us against all enemies, and grant to Your Church Your saving peace; through Jesus Christ, Your Son, our Lord, who lives and reigns with You and the Holy Spirit, one God, now and forever.',
             'zh': ''
         },
         'allSaints': {
-            'en': 'Almight and everlasting God, You knit together Your faithful people of all times and places into one holy communion, the mystical body of Your Son, Jesus Christ. Grant us so to follow Your blessed saints in all virtuous and godly living that, together with them, we may come to the unspeakable joys You have prepared for those who love You; through Jesus Christ, Your Son, our Lord, who lives and reigns with You and the Holy Spirit, one God, now and forever.',
+            'en': 'Almighty and everlasting God, You knit together Your faithful people of all times and places into one holy communion, the mystical body of Your Son, Jesus Christ. Grant us so to follow Your blessed saints in all virtuous and godly living that, together with them, we may come to the unspeakable joys You have prepared for those who love You; through Jesus Christ, Your Son, our Lord, who lives and reigns with You and the Holy Spirit, one God, now and forever.',
             'zh': '全能、永在的上帝，你使你创天地以来普天下所有信实的子民成为一体，成为你儿子耶稣基督的身体。求你保守我们在敬虔和德行上跟随那些蒙福的圣徒，好叫我们享受你已经为我们预备好的不可言喻的喜乐。奉靠你的儿子、我们的主、耶稣基督，他与你和圣灵，同是一位上帝，活着掌权，从今时直到永远。'
         },
         'presentation': {
@@ -197,23 +197,23 @@ module.exports = {
         'one': {
             'holyTrinity1': {
                 'en': 'O God, the strength of all who trust in You, mercifully accept our prayers; and because through the weakness of our mortal nature we can do no good thing, grant us Your grace to keep Your commandments that we may please You in both will and deed; through Jesus Christ, our Lord, who lives and reigns with You and the Holy Spirit, one God, now and forever.',
-                'zh': '上帝，你是所有信靠你的人的力量，求你怜悯接受我们的祷告；并且因我们的软弱我们不能作美善的事，赐我们恩典好叫我们持守你的命令好叫我们在心思意念和行为上都能讨你的喜悦；奉靠耶稣我们的主，他与你和圣灵，同是一位上帝，活着掌权，从今时知道永远。'
+                'zh': '上帝，你是所有信靠你的人的力量，求你怜悯接受我们的祷告；并且因我们的软弱我们不能作美善的事，赐我们恩典好叫我们持守你的命令好叫我们在心思意念和行为上都能讨你的喜悦；奉靠耶稣我们的主，他与你和圣灵，同是一位上帝，活着掌权，从今时直到永远。'
             },
             'holyTrinity2': {
                 'en': 'O Lord, since You never fail to help and govern those whom You nurture in Your steadfast fear and love, work in us a perpetual fear and love of Your holy name; through Jesus Christ, our Lord, who lives and reigns with You and the Holy Spirit, one God, now and forever.',
-                'zh': '主，你从来没有不帮助我，你从来没有对那些你在你的威荣和爱中抚育的人丢弃不管，就求你在我们的心里作工，使我们永远敬畏和爱你圣洁的名，奉靠耶稣我们的主的名，他与你和圣灵，同是一位上帝，活着掌权，从今时知道永远。'
+                'zh': '主，你从来没有不帮助我，你从来没有对那些你在你的威荣和爱中抚育的人丢弃不管，就求你在我们的心里作工，使我们永远敬畏和爱你圣洁的名，奉靠耶稣我们的主的名，他与你和圣灵，同是一位上帝，活着掌权，从今时直到永远。'
             },
             'holyTrinity3': {
                 'en': 'O God, the protector of all who trust in You, without whom nothing is strong and nothing is holy, multiply Your mercy on us that, with You as our ruler and guide, we may so pass through things temporal that we lose not the things eternal; through Jesus Christ, our Lord, who lives and reigns with You and the Holy Spirit, one God, now and forever.',
-                'zh': '上帝，一切信靠你之人的保护者，没有你，没有任何事物是稳固和圣洁的，多多施你的慈爱给我们，因为有你为我们的统治者和引领者，我们就可以度过短暂的世事，不至于丧失永恒的事；奉靠耶稣基督我们的主的名，他与你和圣灵，同是一位上帝，活着掌权，从今时知道永远。'
+                'zh': '上帝，一切信靠你之人的保护者，没有你，没有任何事物是稳固和圣洁的，多多施你的慈爱给我们，因为有你为我们的统治者和引领者，我们就可以度过短暂的世事，不至于丧失永恒的事；奉靠耶稣基督我们的主的名，他与你和圣灵，同是一位上帝，活着掌权，从今时直到永远。'
             },
             'holyTrinity4': {
                 'en': 'O Lord, grant that the course of this world may be so peaceably ordered by You governance that Your Church may joyfully serve You in all godly quietness; through Jesus Christ, our Lord, who lives and reigns with You and the Holy Spirit, one God, now and forever.',
-                'zh': '主，求你让这个世界平安地按照你的旨意运行，让你的教会在敬虔的安静中欢喜地服侍你，奉靠耶稣基督我们的主的名，他与你和圣灵，同是一位上帝，活着掌权，从今时知道永远。'
+                'zh': '主，求你让这个世界平安地按照你的旨意运行，让你的教会在敬虔的安静中欢喜地服侍你，奉靠耶稣基督我们的主的名，他与你和圣灵，同是一位上帝，活着掌权，从今时直到永远。'
             },
             'holyTrinity5': {
                 'en': 'O God, You have prepared for those who love You good things that surpass all understanding. Pour into our hearts such love toward You that we, loving You above all things, may obtain Your promises, which exceed all that we can desire; through Jesus Christ, Your son, our Lord, who lives and reigns with You and the Holy Spirit, one God, now and forever.',
-                'zh': '上帝，你为那些爱你的人所预备的好处远超乎人能思量的，求你把爱你的心放在我们里，籍爱你过于一切，我们可以得着你的超过我们的所求所想的诸应许，奉靠耶稣基督我们的主的名，他与你和圣灵，同是一位上帝，活着掌权，从今时知道永远。'
+                'zh': '上帝，你为那些爱你的人所预备的好处远超乎人能思量的，求你把爱你的心放在我们里，籍爱你过于一切，我们可以得着你的超过我们的所求所想的诸应许，奉靠耶稣基督我们的主的名，他与你和圣灵，同是一位上帝，活着掌权，从今时直到永远。'
             },
             'holyTrinity6': {
                 'en': 'Lord of all power and might, author and giver of all good things, graft into our hearts that the love of Your name, increase in us true religion, nourish us with all goodness, and of Your great mercy keep us in the same; through Jesus Christ, Your son, our Lord, who lives and reigns with You and the Holy Spirit, one God, now and forever.',
@@ -221,19 +221,19 @@ module.exports = {
             },
             'holyTrinity7': {
                 'en': 'O God, whose never-failing providence orders all things both in heaven and earth, we humbly implore You to put away from us all hurtful things and to give us those things that are profitable for us; through Jesus Christ, Your son, our Lord, who lives and reigns with You and the Holy Spirit, one God, now and forever.',
-                'zh': '神啊！你永远信实地看护维系着天上地下所有的事物，我们谦卑地祈求你使所有伤害我们的事物远离我们，给我们凡是有益于我们的事物；奉靠耶稣基督我们的主的名，他与你和圣灵，同是一位上帝，活着掌权，从今时知道永远。 '
+                'zh': '神啊！你永远信实地看护维系着天上地下所有的事物，我们谦卑地祈求你使所有伤害我们的事物远离我们，给我们凡是有益于我们的事物；奉靠耶稣基督我们的主的名，他与你和圣灵，同是一位上帝，活着掌权，从今时直到永远。 '
             },
             'holyTrinity8': {
                 'en': 'Grant us, Lord, the Spirit to think and do always such things as are right, that we, who cannot do anything that is good without You, may be enabled by You to live according to Your will; through Jesus Christ, Your son, our Lord, who lives and reigns with You and the Holy Spirit, one God, now and forever.',
-                'zh': '主啊！赐给我们圣灵好叫我们思想和作公义的事，叫我们这些离开你不能作任任何良善的事的人可以因你的能力按照你的旨意生活；奉靠耶稣基督我们的主的名，他与你和圣灵，同是一位上帝，活着掌权，从今时知道永远。'
+                'zh': '主啊！赐给我们圣灵好叫我们思想和作公义的事，叫我们这些离开你不能作任任何良善的事的人可以因你的能力按照你的旨意生活；奉靠耶稣基督我们的主的名，他与你和圣灵，同是一位上帝，活着掌权，从今时直到永远。'
             },
             'holyTrinity9': {
                 'en': 'Let Your merciful ears, O Lord, be open to the prayers fo Your humble servants; and that they may obtain their petitions, make them to ask such things as shall please You; through Jesus Christ, Your son, our Lord, who lives and reigns with You and the Holy Spirit, one God, now and forever.',
-                'zh': '主啊！求你仁慈地听你卑微仆人的呼求；叫他们的祈求得以实现，使他们求那些使你喜悦的事情；奉靠耶稣基督我们的主的名，他与你和圣灵，同是一位上帝，活着掌权，从今时知道永远。 '
+                'zh': '主啊！求你仁慈地听你卑微仆人的呼求；叫他们的祈求得以实现，使他们求那些使你喜悦的事情；奉靠耶稣基督我们的主的名，他与你和圣灵，同是一位上帝，活着掌权，从今时直到永远。 '
             },
             'holyTrinity10': {
                 'en': 'O God, You declare Your almighty power above all in showing mercy and pity. Mercifully grant us such a measure of Your grace that we may obtain Your gracious promises and be made partakers of Your heavenly treasures; through Jesus Christ, Your son, our Lord, who lives and reigns with You and the Holy Spirit, one God, now and forever.',
-                'zh': '神啊！你在慈爱和怜悯中宣告了你无比的权能；求你恩慈地赐给我们这样的慈爱，叫我们可以得着你宝贵的众应许，可以同享你属天的宝贵；奉靠耶稣基督我们的主的名，他与你和圣灵，同是一位上帝，永远活着，执掌权柄，从今时知道永远。 '
+                'zh': '神啊！你在慈爱和怜悯中宣告了你无比的权能；求你恩慈地赐给我们这样的慈爱，叫我们可以得着你宝贵的众应许，可以同享你属天的宝贵；奉靠耶稣基督我们的主的名，他与你和圣灵，同是一位上帝，永远活着，执掌权柄，从今时直到永远。 '
             },
             'holyTrinity11': {
                 'en': 'Almighty and everlasting God, always more ready to hear than we to pray and to give more than we either desire or deserve, pour down upon us the abundance of Your mercy, forgiving those things of which our conscience is afraid and giving us those good things that we are not worthy to ask, except through the merits and mediation of Christ, our Lord, who lives and reigns with You and the Holy Spirit, one God, now and forever.',
