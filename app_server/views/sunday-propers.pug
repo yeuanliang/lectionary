@@ -15,7 +15,7 @@ block content
                   else if propers.series == 'festival'
                     div(class="card-text text-center") #{propers.date} #{propers.name}
                   else
-                    div(class="card-text text-center") Three-Year Series #{propers.series.toUpperCase()}
+                    div(class="card-text text-center") Three-Year Series #{propers.series}
                     div(class="card-text text-center") #{propers.date} #{propers.name}
             if propers.series != 'special' && propers.series != 'festival'
               div(class="row justify-content-center")

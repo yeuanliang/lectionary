@@ -32,16 +32,16 @@ const startYear = function (date) {
 
 const yearSeries = function (beginYear) {
     // 2017-2018 --> B
-    // 判断一个字符串是否为日期
+    // beginYear是四位数字
     const seriesNumber = beginYear % 3;
     // 0:A, 1:B, 2:C
     switch (seriesNumber) {
         case 0:
-            return 'a';
+            return 'A';
         case 1:
-            return 'b';
+            return 'B';
         case 2:
-            return 'c';
+            return 'C';
     }
 };
 
