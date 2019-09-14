@@ -491,7 +491,7 @@ module.exports = {
             hymn: '516 Wake, awake, for night is flying'
         }
     },
-    a: {
+    A: {
         advent1: {
             color: '蓝色或紫罗兰色',
             preface: 'Advent',
@@ -981,7 +981,7 @@ module.exports = {
             hymn: '532 The Head that once was crowned with thorns'
         }
     },
-    b: {
+    B: {
         advent1: {
             color: '蓝色或紫罗兰色',
             preface: 'Advent',
@@ -1471,7 +1471,7 @@ module.exports = {
             hymn: '336 Lo! He comes with clouds descending'
         }
     },
-    c: {
+    C: {
         advent1: {
             color: '蓝色或紫罗兰色',
             preface: 'Advent',

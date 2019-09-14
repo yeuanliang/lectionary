@@ -1349,7 +1349,7 @@ module.exports = {
             }
         }
     },
-    a:{
+    A:{
         advent1:{
             firstReading:{
                 title:'以赛亚书2:1-5',
@@ -2539,7 +2539,7 @@ module.exports = {
             }
         }
     },
-    b:{
+    B:{
         advent1:{
             firstReading:{
                 title:'以赛亚书64:1-9',
@@ -3737,7 +3737,7 @@ module.exports = {
             }
         }
     },
-    c:{
+    C:{
         advent1:{
             firstReading:{
                 title:'耶利米书33:14-16',

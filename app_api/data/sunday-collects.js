@@ -306,7 +306,7 @@ module.exports = {
                 'zhOptional': ''
             }
         },
-        'a': {
+        'A': {
             'proper3': {
                 'en': 'Eternal God, You counsel us not to be anxious about earthly things. Keep alive in us a proper yearning for those heavenly treasures awaiting all who trust in Your mercy, that we may daily rejoice in Your salvation and serve You with constant devotion; through Jesus Christ, Your son, our Lord, who lives and reigns with You and the Holy Spirit, one God, now and forever.',
                 'zh': ''
@@ -416,7 +416,7 @@ module.exports = {
                 'zh': ''
             }
         },
-        'b': {
+        'B': {
             'proper3': {
                 'en': 'Merciful Father, You have given Your only Son as the sacrifice for sinners. Grant us grace to receive the fruits of His redeeming work with thanksgiving and daily to follow in His way; through Jesus Christ, our Lord, who lives and reigns with You and the Holy Spirit, one God, now and forever.',
                 'zh': ''
@@ -526,7 +526,7 @@ module.exports = {
                 'zh': ''
             }
         },
-        'c': {
+        'C': {
             'proper3': {
                 'en': 'Almighty God, in Your mercy so guide the course of this world that we may forgive as we have been forgiven and joyfully serve You in godly peace and quietness; through Jesus Christ, Your Son, our Lord, who lives and reigns with You and the Holy Spirit, one God, now and forever.',
                 'zh': ''
