@@ -113,13 +113,22 @@ internals.getFestivalPropers = function (request, h) {
     const festival = request.params.festival;
     const date = FestivalsInfo[festival].date;
     const name = FestivalsInfo[festival].name;
-    const propers = SundayPropers.festival[festival];
+    if (festival === 'visitation-3' || festival === 'visitation-1'){
+        return {
+            series:'festival',
+            date,
+            name,
+            collect: Collects.same.visitation,
+            propers: SundayPropers.festival.visitation
+        };
+    }
+
     return {
         series:'festival',
         date,
         name,
         collect: Collects.same[festival],
-        propers
+        propers: SundayPropers.festival[festival]
     };
 };
 

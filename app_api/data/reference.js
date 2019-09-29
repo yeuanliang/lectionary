@@ -281,5 +281,38 @@ module.exports.festivalsInfo = {
     'allSaints': {
         date:'11-01',
         name:'All Saints\' Day'
+    },
+    'allAngels': {
+        date:'09-29',
+        name:'St. Michael and All Angels'
+    },
+    'newYearEve': {
+        date:'12-31',
+        name:'Eve of the Circumcision and Name of Jesus'
+    },
+    'visitation-3': {
+        date:'05-31',
+        name:'The Visitation (3-Year Lectionary)'
+    },
+    'visitation-1': {
+        date:'07-02',
+        name:'The Visitation (1-Year Lectionary)'
+    },
+    'nativityJohn': {
+        date:'06-24',
+        name:'The Nativity of St. John the Baptism'
     }
+};
+
+module.exports.festivals = {
+    '01-01': 'Circumcision and Name of Jesus',
+    '02-02': 'The Purification of Mary and the Presentation of Our Lord',
+    '03-25': 'The Annunciation of Our Lord',
+    '05-31': 'The Visitation (3-Year Lectionary)',
+    '06-24': 'The Nativity of St. John the Baptism',
+    '07-02': 'The Visitation (1-Year Lectionary)',
+    '09-29': 'St. Michael and All Angels',
+    '10-31': 'Reformation Day',
+    '11-01': 'All Saints\' Day',
+    '12-31': 'Eve of the Circumcision and Name of Jesus'
 };

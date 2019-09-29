@@ -75,12 +75,20 @@ internals.getFestivalLectionary = function (request, h) {
     const festival = request.params.festival;
     const date = FestivalsInfo[festival].date;
     const name = FestivalsInfo[festival].name;
-    const lectionary = SundayLectionary.festival[festival];
+    if (festival === 'visitation-3' || festival === 'visitation-1'){
+        return {
+            series:'festival',
+            date,
+            name,
+            lectionary: SundayLectionary.festival.visitation
+        };
+    }
+
     return {
         series:'festival',
         date,
         name,
-        lectionary
+        lectionary: SundayLectionary.festival[festival]
     };
 };
 

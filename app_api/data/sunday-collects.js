@@ -191,6 +191,22 @@ module.exports = {
         'annunciation': {
             'en': 'O Lord, as we have known the incarnation of Your Son, Jesus Christ, by the message of the angle to the virgin Mary, so by the message of His cross and passion bring us to the glory of His resurrection; through the same Jesus Christ, our Lord, who lives and reigns with You and the Holy Spirit, one God, now and forever.',
             'zh': ''
+        },
+        'allAngels': {
+            'en': 'Everlasting God, You have ordained and constituted the service of angels and men in a wonderful order. Mercifully grant that, as Your holy angels always serve and worship You in heaven, so by Your appointment they may also help and defend us here on earth; through Your Son, Jesus Christ, our Lord, who lives and reigns with You and the Holy Spirit, one God, now and forever.',
+            'zh': ''
+        },
+        'newYearEve': {
+            'en': 'Eternal God, we commit to Your mercy and forgiveness the year now ending and commend to Your blessing and love the times yet to come. In the new year, abide among us with Your Holy Spirit that we may always trust in the saving name of our Lord Jesus Christ, who lives and reigns with You and the Holy Spirit, one God, now and forever.',
+            'zh': ''
+        },
+        'visitation': {
+            'en': 'Almighty God, You chose the virgin Mary to be the mother Your Son and made known through her Your gracious regard for the poor and lowly and despised. Grant that we may receive Your Word in humility and faith, and so be made one with Jesus Christ, Your Son, our Lord, who lives and reigns with You and the Holy Spirit, one God, now and forever.',
+            'zh': ''
+        },
+        'nativityJohn': {
+            'en': 'Almighty God, through John the Baptism, the forerunner of Christ, You once proclaimed salvation. Now granted that we may know this salvation and serve You in holiness and righteousness all the days of our life; through our Lord Jesus Christ, Your Son, who lives and reigns with You and the Holy Spirit, one God, now and forever.',
+            'zh': ''
         }
     },
     different: {
