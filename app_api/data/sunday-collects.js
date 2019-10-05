@@ -39,7 +39,7 @@ module.exports = {
             'zh': '上帝，因着明星的引导你向万族显明你的独一的儿子。引导我们这些因信认识你的人在天国里享受你的完全的神圣临在，奉那从始至终一样的耶稣的名，他是你的儿子，我们的主，他永远活着掌权，和你和圣灵同是一位上帝，从今时直到永远。'
         },
         'baptism': {
-            'en': 'Father in heaven, at the Baptism of Jeseus in the Jordan River You proclaimed Him Your beloved Son and anointed Him with the Holy Spirit. Make all who are baptized in His name faithful in their calling as Your children and inheritors with Him of everlasting life; through the same Jesus Christ, our Lord, who lives and reigns with You and the Holy Spirit, one God, now and forever.',
+            'en': 'Father in heaven, at the Baptism of Jesus in the Jordan River You proclaimed Him Your beloved Son and anointed Him with the Holy Spirit. Make all who are baptized in His name faithful in their calling as Your children and inheritors with Him of everlasting life; through the same Jesus Christ, our Lord, who lives and reigns with You and the Holy Spirit, one God, now and forever.',
             'zh': '天父，耶稣在约旦河里受洗的时候，你宣告耶稣是你的爱子，并且用圣灵膏他。求你使所有奉耶稣的名受洗的人而成为你的儿女的人都能在你的呼召中有信心， 使他们能和耶稣共同承受永生。奉我们主耶稣基督的名， 他与你和圣灵同是一位上帝，活着掌权，从今时直到永远。'
         },
         'epiphany1': {
@@ -87,7 +87,7 @@ module.exports = {
             'zh': '主啊，求你怜悯地垂听我们的祷告，因为你既已把我们从众罪的捆绑中释放了我们，就救我们脱离种种罪恶；奉你的儿子，我们的主，耶稣基督的名，他与你和圣灵同是一位上帝，活着掌权，从今时直到永远。'
         },
         'transfiguration': {
-            'en': 'O God, in the glorious transfiguration of Your beloved Son You confirmed the mysteries of the faith by the testimony of Moses and Elijah. In the voice that came from the gright cloud You wonderfully foreshowed our adoption by grace. Mercifully make us co-heirs with the King in His glory and bring us to the fullness of our inheritance in heaven; through the same Jesus Christ, our Lord, who lives and reigns with You and the Holy Spirit, one God, now and forever.',
+            'en': 'O God, in the glorious transfiguration of Your beloved Son You confirmed the mysteries of the faith by the testimony of Moses and Elijah. In the voice that came from the right cloud You wonderfully foreshowed our adoption by grace. Mercifully make us co-heirs with the King in His glory and bring us to the fullness of our inheritance in heaven; through the same Jesus Christ, our Lord, who lives and reigns with You and the Holy Spirit, one God, now and forever.',
             'zh': '上帝啊，在你爱子荣耀的显现里，你藉着摩西和以利亚的见证肯定了信仰的奥秘。在你从光明的云彩中的话里，你奇妙地预先显明你如何会恩惠地收养我们为你的儿女。求你在怜悯里使我们与那在荣耀里的王同为后嗣、引领我们在天上完全地承受我们的产业。奉那从始至终一样的耶稣的名，他是你的儿子，我们的主，他永远活着掌权，和你和圣灵同是一位上帝，从今时直到永远。'
         },
         'ashWednesday': {
@@ -115,7 +115,7 @@ module.exports = {
             'zh': '大能的上帝，因着你伟大的良善求你恩慈地看顾你的子民，好叫我们在身体和灵魂上更加得看顾和保守﹔奉你的儿子，我们的主，耶稣基督的名求，他与你和圣灵同是一位上帝，活着掌权，从今时直到永远。'
         },
         'palm': {
-            'en': 'Almighty and everlasting God, You sent Your Son, our Savior Jesus Christ, to take upon Himself our flesh and to suffer death upon the cross. Mercifully grant that we may follow the example of His great humility and patience and be made partakers of His resurrection; through the smae Jesus Christ, our Lord, who lives and reigns with You and the Holy Spirit, one God, now and forever.',
+            'en': 'Almighty and everlasting God, You sent Your Son, our Savior Jesus Christ, to take upon Himself our flesh and to suffer death upon the cross. Mercifully grant that we may follow the example of His great humility and patience and be made partakers of His resurrection; through the same Jesus Christ, our Lord, who lives and reigns with You and the Holy Spirit, one God, now and forever.',
             'zh': '全能永在的上帝啊，你差你的儿子，我们的救主耶稣基督，是为了代替我们人在十字架上受死。求恩待我们，使我们可以跟从他謙卑和忍耐的模样，与他一同复活﹔奉你的儿子，我们的主，耶稣基督的名求，他与你和圣灵同是一位上帝，活着掌权，从今时直到永远。'
         },
         'maundy': {
@@ -129,7 +129,7 @@ module.exports = {
         'easter': {
             'en': 'Almighty God the Father, through Your only-begotten Son, Jesus Christ, You have overcome death and opened the gate of everlasting life to us. Grant that we, who celebrate with joy the day of our Lord\'s resurrection, may be raised from the death of sin by Your life-giving Spirit; through Jesus Christ, our Lord, who lives and reigns with You and the Holy Spirit, one God, now and forever.',
             'zh': '全能的父上帝啊，你借着你的独生子耶稣基督已经胜过了死亡，为我们打开了永生之门。求你使我们这些欢庆我主复活之日的人，靠赖你赐生命的圣灵保持在真信心里，以至最后在末日的时候复活，进入永生的荣耀﹔奉你的儿子，我们的主，耶稣基督的名求，他与你和圣灵同是一位上帝，活着掌权，从今时直到永远。',
-            'enOptional': 'O God, for our redemption You gave Your only-begotten Son to the death of the cross by His glorious resurrection delivered us from the power of the enemy. Grant that all our sin may be drowned through daily repentance and that day by day we may arise to live befor You in righteousness and purity forever; through Jesus Christ, our Lord, who lives and reigns with You and the Holy Spirit, one God, now and forever.',
+            'enOptional': 'O God, for our redemption You gave Your only-begotten Son to the death of the cross by His glorious resurrection delivered us from the power of the enemy. Grant that all our sin may be drowned through daily repentance and that day by day we may arise to live before You in righteousness and purity forever; through Jesus Christ, our Lord, who lives and reigns with You and the Holy Spirit, one God, now and forever.',
             'zhOptional': ''
         },
         'easter2': {
@@ -272,8 +272,8 @@ module.exports = {
                 'zh': '主，我们请求你；让你持久的怜悯洁净和保护你的教会;并且没有你的帮助她不能持续有安全，以你的帮助和良善永远保守她，奉靠你的儿子、我们的主、耶稣基督，他与你和圣灵，同是一位上帝，活着掌权，从今时直到永远。'
             },
             'holyTrinity16': {
-                'en': 'O Lord, we pary that Your grace may always go before and follow after us, that we may continually be given to all good works; through Jesus Christ, Your son, our Lord, who lives and reigns with You and the Holy Spirit, one God, now and forever.',
-                'zh': '主，我们祈求你的恩典永远可以在我们的前面行进，在我们后面跟随，为了所有美好的工 我们可以持续地被给予你的恩典，奉靠你的儿子、我们的主、耶稣基督，他与你和圣灵，同是一位上帝，活着掌权，从今时直到永远。'
+                'en': 'O Lord, we pray that Your grace may always go before and follow after us, that we may continually be given to all good works; through Jesus Christ, Your son, our Lord, who lives and reigns with You and the Holy Spirit, one God, now and forever.',
+                'zh': '主，我们祈求你的恩典永远可以在我们的前面行进，在我们后面跟随，为了所有美好的工，我们可以持续地被给予你的恩典，奉靠你的儿子、我们的主、耶稣基督，他与你和圣灵，同是一位上帝，活着掌权，从今时直到永远。'
             },
             'holyTrinity17': {
                 'en': 'Lord, we implore You, grant Your people grace to withstand the temptations of the devil and with pure hearts and minds to follow You, the only God; through Jesus Christ, Your son, our Lord, who lives and reigns with You and the Holy Spirit, one God, now and forever.',
@@ -296,7 +296,7 @@ module.exports = {
                 'zh': '主，保守你的家，也就是你的教会，在持续的敬虔中，好叫他们因着你的保守可以免于各种祸患，可以能够舍己用善功来服侍你；奉靠你的儿子、我们的主、耶稣基督，他与你和圣灵，同是一位上帝，活着掌权，从今时直到永远。'
             },
             'holyTrinity22': {
-                'en': 'O God, our refuge and strength, the author of all godliness, hear the evout prayers of Your Church, especially in times of persecution, and grant that what we ask in faith we may obtain; through Jesus Christ, Your son, our Lord, who lives and reigns with You and the Holy Spirit, one God, now and forever.',
+                'en': 'O God, our refuge and strength, the author of all godliness, hear the devout prayers of Your Church, especially in times of persecution, and grant that what we ask in faith we may obtain; through Jesus Christ, Your son, our Lord, who lives and reigns with You and the Holy Spirit, one God, now and forever.',
                 'zh': '上帝，我们的避难所和力量，所有敬虔的始作者，听你教会虔诚的祷告，尤其是在这受逼迫的时代，使我们可以得着在信心里所祈求的，奉靠你的儿子、我们的主、耶稣基督，他与你和圣灵，同是一位上帝，活着掌权，从今时直到永远。'
             },
             'holyTrinity23': {
@@ -360,7 +360,7 @@ module.exports = {
                 'zh': ''
             },
             'proper12': {
-                'en': 'Almigthy and everlasting God, give us an increase of faith, hope, and love, that, receiving what You have promised, we may love what You have commanded; through Jesus Christ, Your son, our Lord, who lives and reigns with You and the Holy Spirit, one God, now and forever.',
+                'en': 'Almighty and everlasting God, give us an increase of faith, hope, and love, that, receiving what You have promised, we may love what You have commanded; through Jesus Christ, Your son, our Lord, who lives and reigns with You and the Holy Spirit, one God, now and forever.',
                 'zh': ''
             },
             'proper13': {
@@ -392,7 +392,7 @@ module.exports = {
                 'zh': ''
             },
             'proper20': {
-                'en': 'Lord God, heavenly Father, since we cannot statnd before You relying on anything we have done, help us trust in Your abiding grace and live according to Your Word; through Jesus Christ, Your son, our Lord, who lives and reigns with You and the Holy Spirit, one God, now and forever.',
+                'en': 'Lord God, heavenly Father, since we cannot stand before You relying on anything we have done, help us trust in Your abiding grace and live according to Your Word; through Jesus Christ, Your son, our Lord, who lives and reigns with You and the Holy Spirit, one God, now and forever.',
                 'zh': ''
             },
             'proper21': {
@@ -428,7 +428,7 @@ module.exports = {
                 'zh': ''
             },
             'proper29': {
-                'en': 'Eternal God, merciful Father, You have appointed Your Son as judge of the living and the dead. Enable us to wait for the day of His return with our eyes fixed on the kindom prepared for Your own from the foundation of the world; through Jesus Christ, our Lord, who lives and reigns with You and the Holy Spirit, one God, now and forever.',
+                'en': 'Eternal God, merciful Father, You have appointed Your Son as judge of the living and the dead. Enable us to wait for the day of His return with our eyes fixed on the kingdom prepared for Your own from the foundation of the world; through Jesus Christ, our Lord, who lives and reigns with You and the Holy Spirit, one God, now and forever.',
                 'zh': ''
             }
         },
@@ -608,7 +608,7 @@ module.exports = {
                 'zh': ''
             },
             'proper19': {
-                'en': 'Lord Jesus, You are the Good Shepherd, without whom nothing is secure. Rescue and preserve us that we may not be lost forever but follow You, rejoicing in the way that leads to eteranl life; for You live and reign with the Father and the Holy Spirit, one God, now and forever.',
+                'en': 'Lord Jesus, You are the Good Shepherd, without whom nothing is secure. Rescue and preserve us that we may not be lost forever but follow You, rejoicing in the way that leads to eternal life; for You live and reign with the Father and the Holy Spirit, one God, now and forever.',
                 'zh': ''
             },
             'proper20': {
@@ -632,7 +632,7 @@ module.exports = {
                 'zh': ''
             },
             'proper25': {
-                'en': 'Almighty and everlasting God, You are always more ready to hear than we to pray and always ready to give more than we either desire or deserve. Pour down on us the abundanee of Your mercy; forgive us those things of which our conscience is afraid; and give us those good things for which we are not worthy to ask except by the merits and mediation of Jesus Christ, Your Son, our Lord, who lives and reigns with You and the Holy Spirit, one God, now and forever.',
+                'en': 'Almighty and everlasting God, You are always more ready to hear than we to pray and always ready to give more than we either desire or deserve. Pour down on us the abundance of Your mercy; forgive us those things of which our conscience is afraid; and give us those good things for which we are not worthy to ask except by the merits and mediation of Jesus Christ, Your Son, our Lord, who lives and reigns with You and the Holy Spirit, one God, now and forever.',
                 'zh': ''
             },
             'proper26': {

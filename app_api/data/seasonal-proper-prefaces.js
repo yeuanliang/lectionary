@@ -33,7 +33,7 @@ module.exports = {
     },
     'holyWeek':{
         season: 'HOLY WEEK',
-        en:'It is truly good, right, and salutary that we should at all times and in all places give thanks to You, holy Lord, almighty Father, everlasting God, through Jesus Christ, our Lord, who accomplished the salvation of mankind by the tree of the cross that, where death arose, there life also might rise again and that the serpent who overcame by the tree of the graden might likewise by the tree of the cross be overcome. Therefore with angels and archangels and with all the company of heaven we laud and magnify Your glorious name, evermore praising You and saying:',
+        en:'It is truly good, right, and salutary that we should at all times and in all places give thanks to You, holy Lord, almighty Father, everlasting God, through Jesus Christ, our Lord, who accomplished the salvation of mankind by the tree of the cross that, where death arose, there life also might rise again and that the serpent who overcame by the tree of the garden might likewise by the tree of the cross be overcome. Therefore with angels and archangels and with all the company of heaven we laud and magnify Your glorious name, evermore praising You and saying:',
         zh:''
     },
     'easter':{
