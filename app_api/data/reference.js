@@ -20,6 +20,74 @@ module.exports.daysMovable = [
 ];
 
 module.exports.bibleBooks = {
+    engAbbr: [
+        'Gn',
+        'Ex',
+        'Lv',
+        'Nu',
+        'Dt',
+        'Jsh',
+        'Jgs',
+        'Ru',
+        '1Sm',
+        '2Sm',
+        '1Ki',
+        '2Ki',
+        '1Ch',
+        '2Ch',
+        'Ezr',
+        'Ne',
+        'Est',
+        'Jb',
+        'Ps',
+        'Pr',
+        'Ec',
+        'Sg',
+        'Is',
+        'Jer',
+        'Lm',
+        'Ezk',
+        'Dn',
+        'Hos',
+        'Jl',
+        'Am',
+        'Ob',
+        'Jnh',
+        'Mi',
+        'Na',
+        'Hab',
+        'Zep',
+        'Hg',
+        'Zec',
+        'Mal',
+        'Mt',
+        'Mk',
+        'Lk',
+        'Jn',
+        'Ac',
+        'Rm',
+        '1Co',
+        '2Co',
+        'Gal',
+        'Eph',
+        'Php',
+        'Col',
+        '1Th',
+        '2Th',
+        '1Tm',
+        '2Tm',
+        'Ti',
+        'Phm',
+        'Heb',
+        'Jas',
+        '1Pt',
+        '2Pt',
+        '1Jn',
+        '2Jn',
+        '3Jn',
+        'Jude',
+        'Rv'
+    ],
     en: [
         'Genesis',
         'Exodus',
@@ -88,7 +156,7 @@ module.exports.bibleBooks = {
         'Jude',
         'Revelations'
     ],
-    zh:[
+    zh: [
         '创世记',
         '出埃及记',
         '利未记',
@@ -155,55 +223,123 @@ module.exports.bibleBooks = {
         '约翰三书',
         '犹大书',
         '启示录'
+    ],
+    zhAbbr: [
+        '创',
+        '出',
+        '利',
+        '数',
+        '申',
+        '书',
+        '士',
+        '得',
+        '撒上',
+        '撒下',
+        '王上',
+        '王下',
+        '代上',
+        '代下',
+        '拉',
+        '尼',
+        '帖',
+        '伯',
+        '诗',
+        '箴',
+        '传',
+        '歌',
+        '赛',
+        '耶',
+        '哀',
+        '结',
+        '但',
+        '何',
+        '珥',
+        '摩',
+        '俄',
+        '拿',
+        '弥',
+        '鸿',
+        '哈',
+        '番',
+        '该',
+        '亚',
+        '玛',
+        '太',
+        '可',
+        '路',
+        '约',
+        '徒',
+        '罗',
+        '林前',
+        '林后',
+        '加',
+        '弗',
+        '腓',
+        '西',
+        '帖前',
+        '帖后',
+        '提前',
+        '提后',
+        '多',
+        '门',
+        '来',
+        '雅',
+        '彼前',
+        '彼后',
+        '约一',
+        '约二',
+        '约三',
+        '犹',
+        '启'
     ]
 };
 
 module.exports.sundaysBeforeHolyTrinity = {
-    'advent1':'First Sunday in Advent',
-    'advent2':'Second Sunday in Advent',
-    'advent3':'Third Sunday in Advent',
-    'advent4':'Fourth Sunday in Advent',
-    'christmasEve':'Christmas Eve',
-    'christmas':'Christmas Day',
-    'christmas1':'First Sunday after Christmas',
-    'christmas2':'Second Sunday after Christmas',
-    'epiphany':'The Epiphany of Our Lord',
-    'baptism':'The Baptism of Our Lord',
-    'epiphany1':'First Sunday after the Epiphany',
-    'epiphany2':'Second Sunday after the Epiphany',
-    'epiphany3':'Third Sunday after the Epiphany',
-    'epiphany4':'Fourth Sunday after the Epiphany',
-    'epiphany5':'Fifth Sunday after the Epiphany',
-    'epiphany6':'Sixth Sunday after the Epiphany',
-    'epiphany7':'Seventh Sunday after the Epiphany',
-    'epiphany8':'Eighth Sunday after the Epiphany',
-    'septuagesima':'Septuagesima',
-    'sexagesima':'Sexagesima',
-    'quinquagesima':'Quinquagesima',
-    'transfiguration':'The Transfiguration of Our Lord',
-    'ashWednesday':'Ash Wednesday',
-    'lent1':'First Sunday in Lent',
-    'lent2':'Second Sunday in Lent',
-    'lent3':'Third Sunday in Lent',
-    'lent4':'Fourth Sunday in Lent',
-    'lent5':'Fifth Sunday in Lent',
-    'palm':'Palm Sunday',
-    'maundy':'Holy(Maundy) Thursday',
-    'goodFriday':'Good Friday',
-    'easter':'The Resurrection of Our Lord',
-    'easter2':'Second Sunday of Easter',
-    'easter3':'Third Sunday of Easter',
-    'easter4':'Fourth Sunday of Easter',
-    'easter5':'Fifth Sunday of Easter',
-    'easter6':'Sixth Sunday of Easter',
-    'ascension':'The Ascension of Our Lord',
-    'easter7':'Seventh Sunday of Easter',
-    'pentecost':'The Day of Pentecost',
-    'holyTrinity':'The Holy Trinity'
+    'advent1': 'First Sunday in Advent',
+    'advent2': 'Second Sunday in Advent',
+    'advent3': 'Third Sunday in Advent',
+    'advent4': 'Fourth Sunday in Advent',
+    'christmasEve': 'Christmas Eve',
+    'christmas': 'Christmas Day',
+    'christmas1': 'First Sunday after Christmas',
+    'christmas2': 'Second Sunday after Christmas',
+    'epiphany': 'The Epiphany of Our Lord',
+    'baptism': 'The Baptism of Our Lord',
+    'epiphany1': 'First Sunday after the Epiphany',
+    'epiphany2': 'Second Sunday after the Epiphany',
+    'epiphany3': 'Third Sunday after the Epiphany',
+    'epiphany4': 'Fourth Sunday after the Epiphany',
+    'epiphany5': 'Fifth Sunday after the Epiphany',
+    'epiphany6': 'Sixth Sunday after the Epiphany',
+    'epiphany7': 'Seventh Sunday after the Epiphany',
+    'epiphany8': 'Eighth Sunday after the Epiphany',
+    'septuagesima': 'Septuagesima',
+    'sexagesima': 'Sexagesima',
+    'quinquagesima': 'Quinquagesima',
+    'transfiguration': 'The Transfiguration of Our Lord',
+    'ashWednesday': 'Ash Wednesday',
+    'lent1': 'First Sunday in Lent',
+    'lent2': 'Second Sunday in Lent',
+    'lent3': 'Third Sunday in Lent',
+    'lent4': 'Fourth Sunday in Lent',
+    'lent5': 'Fifth Sunday in Lent',
+    'palm': 'Palm Sunday',
+    'maundy': 'Holy(Maundy) Thursday',
+    'goodFriday': 'Good Friday',
+    'easter': 'The Resurrection of Our Lord',
+    'easter2': 'Second Sunday of Easter',
+    'easter3': 'Third Sunday of Easter',
+    'easter4': 'Fourth Sunday of Easter',
+    'easter5': 'Fifth Sunday of Easter',
+    'easter6': 'Sixth Sunday of Easter',
+    'ascension': 'The Ascension of Our Lord',
+    'easter7': 'Seventh Sunday of Easter',
+    'pentecost': 'The Day of Pentecost',
+    'holyTrinity': 'The Holy Trinity'
 };
 
 module.exports.sundaysAfterHolyTrinity = {
-    oneYear:[
+    oneYear: [
         'First Sunday after Trinity',
         'Second Sunday after Trinity',
         'Third Sunday after Trinity',
@@ -231,7 +367,7 @@ module.exports.sundaysAfterHolyTrinity = {
         'Twenty-fifth Sunday after Trinity',
         'Twenty-sixth Sunday after Trinity'
     ],
-    threeYear:[
+    threeYear: [
         'Second Sunday after Pentecost',
         'Third Sunday after Pentecost',
         'Fourth Sunday after Pentecost',
@@ -262,7 +398,7 @@ module.exports.sundaysAfterHolyTrinity = {
 };
 
 module.exports.festivalsInfo = {
-    'circumcision':{
+    'circumcision': {
         date: '01-01',
         name: 'Circumcision and Name of Jesus'
     },
@@ -271,36 +407,36 @@ module.exports.festivalsInfo = {
         name: 'The Purification of Mary and the Presentation of Our Lord'
     },
     'annunciation': {
-        date:'03-25',
+        date: '03-25',
         name: 'The Annunciation of Our Lord'
     },
-    'reformation':{
-        date:'10-31',
-        name:'Reformation Day'
+    'reformation': {
+        date: '10-31',
+        name: 'Reformation Day'
     },
     'allSaints': {
-        date:'11-01',
-        name:'All Saints\' Day'
+        date: '11-01',
+        name: 'All Saints\' Day'
     },
     'allAngels': {
-        date:'09-29',
-        name:'St. Michael and All Angels'
+        date: '09-29',
+        name: 'St. Michael and All Angels'
     },
     'newYearEve': {
-        date:'12-31',
-        name:'Eve of the Circumcision and Name of Jesus'
+        date: '12-31',
+        name: 'Eve of the Circumcision and Name of Jesus'
     },
     'visitation-3': {
-        date:'05-31',
-        name:'The Visitation (3-Year Lectionary)'
+        date: '05-31',
+        name: 'The Visitation (3-Year Lectionary)'
     },
     'visitation-1': {
-        date:'07-02',
-        name:'The Visitation (1-Year Lectionary)'
+        date: '07-02',
+        name: 'The Visitation (1-Year Lectionary)'
     },
     'nativityJohn': {
-        date:'06-24',
-        name:'The Nativity of St. John the Baptism'
+        date: '06-24',
+        name: 'The Nativity of St. John the Baptism'
     }
 };
 
