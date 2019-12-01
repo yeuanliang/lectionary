@@ -26,6 +26,7 @@ internals.getDailyPsalms = function (request, h){
     const ashWednesday = AdventJS.ashWednesday(theYear);
     const easter = AdventJS.easter(theYear);
     const pentecost = AdventJS.pentecost(theYear);
+    const holyTrinity = pentecost.add(7, 'd');
     const generalDay = function (generalName, momentObject) {
 
         let startDay = 0;
@@ -62,24 +63,24 @@ internals.getDailyPsalms = function (request, h){
         dayName = generalDay('firstGeneral', theday);
     }
     else if (theday >= ashWednesday && theday < easter) {
-        // lent: Ash Wednesday to the day before easter
+        // lent: Ash Wednesday to the day before Easter Sunday
         dayName = 'lent-' + theday.day();
     }
-    else if (theday >= easter && theday <= pentecost) {
-        // easter: fifty days in length (from Easter Sunday up to and inclusive of Pentecost)
-        dayName = 'advent-' + theday.day();
+    else if (theday >= easter && theday < holyTrinity) {
+        // easter: Easter Sunday to Holy Trinity
+        dayName = 'easter-' + theday.day();
     }
-    else if (theday > pentecost && theday < adventSunday) {
-        // secondGeneral, the day after Penteost to the end of the liturgical year
+    else if (theday >= holyTrinity && theday < adventSunday) {
+        // secondGeneral, Holy Trinity to the end of the church year
         dayName = generalDay('secondGeneral', theday);
     }
-    else if (theday > adventSunday && theday < christmas.subtract(1, 'd')) {
-        // the first Sunday of Advent is the first day of the liturgical year
+    else if (theday >= adventSunday && theday < christmas.subtract(1, 'd')) {
+        // the first Sunday of Advent is the first day of the church year
         // advent: adventSunday to 12-23
         dayName = 'advent-' + theday.day();
     }
     else {
-        // christmas
+        // christmas, 12-24 t0 01-06
         dayName = 'day' + theday.format('MM-DD');
     }
 
