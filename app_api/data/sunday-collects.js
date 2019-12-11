@@ -8,7 +8,7 @@ module.exports = {
         },
         'advent2': {
             'en': 'Stir up our hearts, O Lord, to make ready the way of Your only-begotten Son, that by His coming we may be enabled to serve You with pure minds; through the same Jesus Christ, our Lord, who lives and reigns with You and the Holy Spirit, one God, now and forever.',
-            'zh': '主阿，求你奋兴我们的心，好叫我们预备道路迎接你的独子，在他的来临的时候我们能以清洁的心事奉他；奉靠你的儿子、我们的主、耶稣基督，他与你和圣灵，同是一位上帝，活着掌权，从今时直到永远。'
+            'zh': '主阿，求你奋兴我们的心，好叫我们预备道路迎接你的独子，在他来临的时候我们能以清洁的心事奉他；奉靠你的儿子、我们的主、耶稣基督，他与你和圣灵，同是一位上帝，活着掌权，从今时直到永远。'
         },
         'advent3': {
             'en': 'Lord Jesus Christ, we implore You to hear our prayers and to lighten the darkness of our hearts by Your gracious visitation; for You live and reign with the Father and the Holy Spirit, one God, now and forever.',
