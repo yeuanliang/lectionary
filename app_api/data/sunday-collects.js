@@ -32,7 +32,7 @@ module.exports = {
         },
         'christmas2': {
             'en': 'Almighty God, You have poured into our hearts the true Light of Your incarnate Word. Grant that this Light may shine forth in our lives; through the same Jesus Christ, our Lord, who lives and reigns with You and the Holy Spirit, one God, now and forever.',
-            'zh': ''
+            'zh': '全能的上帝，你已经将道成肉身的真光浇灌道我们的心里；愿你使这光光照我们的生命；奉靠我们主，耶稣基督，他与你和圣灵同是一位上帝，活着掌权，从今时直到永远！'
         },
         'epiphany': {
             'en': 'O God, by the leading of a star You made known Your only-begotten Son to the Gentiles. Lead us, who know You by faith, to enjoy in heaven the fullness of Your divine presence;  through the same Jesus Christ, our Lord, who lives and reigns with You and the Holy Spirit, one God, now and forever.',
