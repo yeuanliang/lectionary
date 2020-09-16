@@ -44,7 +44,7 @@ module.exports = {
         },
         'epiphany1': {
             'en': 'O Lord, mercifully receive the prayers of Your people who call upon You and grant that they both perceive and know what things they ought to do and also may have grace and power faithfully to fulfill the same; through Jesus Christ, Your Son, our Lord, who lives and reigns with You and the Holy Spirit, one God, now and forever.',
-            'zh': ''
+            'zh': '上帝啊，求你仁慈地接受呼求你的百姓的祷告，应许他们理解和知道他们应该做的事情，并有恩典和能力忠心地成就这些事；奉靠耶稣基督，你的儿子、我们的主，祂活着掌权，与你和圣灵同是一位上帝，从今时直到永远！'
         },
         'epiphany2': {
             'en': 'Almighty and everlasting God, who governs all things in heaven and on earth, mercifully hear the prayers of Your people and grant us Your peace through all our days; through Jesus Christ, Your Son, our Lord, who lives and reigns with You and the Holy Spirit, one God, now and forever.',
