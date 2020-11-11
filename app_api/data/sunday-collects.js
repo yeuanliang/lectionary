@@ -20,11 +20,11 @@ module.exports = {
         },
         'christmasEve': {
             'en': 'O God, You make us glad with the yearly remembrance of the birth of Your only-begotten Son, Jesus Christ. Grant that as we joyfully receive Him as our Redeemer, we may with sure confidence behold Him when He comes to be our Judge; through the same Jesus Christ, our Lord, who lives and reigns with You and the Holy Spirit, one God, now and forever.',
-            'zh': ''
+            'zh': '上帝啊，因着我们每年纪念你独子耶稣基督的降生，你使我们欢喜快乐。当我们今天欢心地接待他为我们的救赎主的时候，求你使我们满有信心地仰望他降临审判；奉我们的主耶稣基督的名，他永远活着，与你同掌权柄，与你和圣灵同是一位上帝，从今时直到永远。'
         },
         'christmas': {
             'en': 'Almighty God, grant that the birth of Your only-begotten Son in the fresh may set us free from the bondage of sin; through Jesus Christ, our Lord, who lives and reigns with You and the Holy Spirit, one God, now and forever.',
-            'zh': ''
+            'zh': '大能的上帝啊，求你藉着你独子耶稣基督道成肉身降生到人世间让我们脱离罪的捆绑。奉我们的主耶稣基督的名，他永远活着，与你同掌权柄，与你和圣灵同是一位上帝，从今时直到永远。'
         },
         'christmas1': {
             'en': 'O God, our Maker and Redeemer, You wonderfully created us and in the incarnation of Your Son yet more wondrously restored our human nature. Grant that we may ever be alive in Him who made Himself to be like us; through Jesus Christ, our Lord, who lives and reigns with You and the Holy Spirit, one God, now and forever.',
@@ -60,7 +60,7 @@ module.exports = {
         },
         'epiphany5': {
             'en': 'O Lord, keep Your family the Church continually in the true faith that, relying on the hope of Your heavenly grace, we may ever be defended by Your mighty power; through Jesus Christ, Your Son, our Lord, who lives and reigns with You and the Holy Spirit, one God, now and forever.',
-            'zh': ''
+            'zh': '主啊， 求你保守教会，你的家在真信心里，借着你天上的恩典和盼望，你的大能、大力能永远保护我们。奉我们的主耶稣基督的名，他永远活着，与你同掌权柄，与你和圣灵同是一位上帝，从今时直到永远。'
         },
         'epiphany6': {
             'en': 'O Lord, graciously hear the prayers of Your people that we who justly suffer the consequence of our sin may be mercifully delivered by Your goodness to the glory of Your name; through Jesus Christ, Your Son, our Lord, who lives and reigns with You and the Holy Spirit, one God, now and forever.',
@@ -158,7 +158,7 @@ module.exports = {
         },
         'ascension': {
             'en': 'Almighty God, as Your only-begotten Son, our Lord Jesus Christ, ascended into the heavens, so may we also ascend in heart and mind and continually dwell there with Him, who lives and reigns with You and the Holy Spirit, one God, now and forever.',
-            'zh': ''
+            'zh': '大能的上帝，你独子我们的主耶稣基督道已经升到高天之上，求你使我们的心思意念也上升并且持久地在那里与他同住。奉我们的主耶稣基督的名，他永远活着，与你同掌权柄，与你和圣灵同是一位上帝，从今时直到永远。'
         },
         'easter7': {
             'en': 'O King of glory, Lord of hosts, uplifted in triumph far above all heavens, leave us not without consolation but send us the Spirit of truth whom You promised from the Father; for You live and reign with Him and the Holy Spirit, one God, now and forever.',
@@ -174,11 +174,11 @@ module.exports = {
         },
         'circumcision': {
             'en': 'Lord God, You made Your beloved Son, our Savior, subject to the Law and caused Him to shed His blood on our behalf. Grant us the true circumcision of the Spirit that our hearts may be made pure from all sins; through Jesus Christ, our Lord, who lives and reigns with You and the Holy Spirit, one God, now and forever.',
-            'zh': ''
+            'zh': '主上帝，你使你的爱子我们的拯救者，顺服于律法，为我们流血舍命，求你让我们受圣灵的的真割礼，因而我们的心可以从众罪中得以洁净；奉耶稣基督，你的儿子，我们主的名，他永远活着，与你和圣灵同掌权柄，同是一位上帝，从今时直到永远'
         },
         'reformation': {
             'en': 'Almighty and gracious Lord, pour out Your Holy Spirit on Your faithful people. Keep us steadfast in Your grace and truth, protect and deliver us in times of temptation, defend us against all enemies, and grant to Your Church Your saving peace; through Jesus Christ, Your Son, our Lord, who lives and reigns with You and the Holy Spirit, one God, now and forever.',
-            'zh': ''
+            'zh': '权能恩慈的上帝，浇灌你的圣灵在信你的民上。让我们居住在你的恩典和真理里面，在被试探的时候，保守和拯救我们，使我们脱离所有仇敌，给你的教会救恩的平安；奉耶稣基督我们主的名，他永远活着，与你和圣灵同掌权柄，同是一位上帝，从今时直到永远。'
         },
         'allSaints': {
             'en': 'Almighty and everlasting God, You knit together Your faithful people of all times and places into one holy communion, the mystical body of Your Son, Jesus Christ. Grant us so to follow Your blessed saints in all virtuous and godly living that, together with them, we may come to the unspeakable joys You have prepared for those who love You; through Jesus Christ, Your Son, our Lord, who lives and reigns with You and the Holy Spirit, one God, now and forever.',
@@ -186,15 +186,15 @@ module.exports = {
         },
         'presentation': {
             'en': 'Almighty and ever-living God, as Your only-begotten Son was this day presented in the temple in the substance of our flesh, grant that we may be presented to You with pure and clean hearts; through Jesus Christ, our Lord, who lives and reigns with You and the Holy Spirit, one God, now and forever.',
-            'zh': ''
+            'zh': '权能和永恒的上帝，在这日你的肉身的独生子被献于圣殿中，请你让我们可以用清洁的心灵奉献于你；奉耶稣基督，你的儿子，我们主的名，他永远活着，与你和圣灵同掌权柄，同是一位上帝，从今时直到永远。'
         },
         'annunciation': {
             'en': 'O Lord, as we have known the incarnation of Your Son, Jesus Christ, by the message of the angle to the virgin Mary, so by the message of His cross and passion bring us to the glory of His resurrection; through the same Jesus Christ, our Lord, who lives and reigns with You and the Holy Spirit, one God, now and forever.',
-            'zh': ''
+            'zh': '主啊！我们已经知道天使向童女玛丽亚的宣告的信息，你儿子耶稣基督成了肉身，因着他的十字架和受难的信息，求你带给我们他复活的荣耀。奉耶稣基督我们主的名，他永远活着，与你和圣灵同掌权柄，同是一位上帝，从今时直到永远。'
         },
         'allAngels': {
             'en': 'Everlasting God, You have ordained and constituted the service of angels and men in a wonderful order. Mercifully grant that, as Your holy angels always serve and worship You in heaven, so by Your appointment they may also help and defend us here on earth; through Your Son, Jesus Christ, our Lord, who lives and reigns with You and the Holy Spirit, one God, now and forever.',
-            'zh': ''
+            'zh': '永恒的上帝，你命定了天使和人的奇异的有秩序的侍奉，像那些你圣洁的天使在天上服侍和敬拜你，求你让他们按照你的命令可以在地上帮助和保守我们。奉耶稣基督我们主的名，他永远活着，与你和圣灵同掌权柄，同是一位上帝，从今时直到永远。'
         },
         'newYearEve': {
             'en': 'Eternal God, we commit to Your mercy and forgiveness the year now ending and commend to Your blessing and love the times yet to come. In the new year, abide among us with Your Holy Spirit that we may always trust in the saving name of our Lord Jesus Christ, who lives and reigns with You and the Holy Spirit, one God, now and forever.',
@@ -202,11 +202,11 @@ module.exports = {
         },
         'visitation': {
             'en': 'Almighty God, You chose the virgin Mary to be the mother Your Son and made known through her Your gracious regard for the poor and lowly and despised. Grant that we may receive Your Word in humility and faith, and so be made one with Jesus Christ, Your Son, our Lord, who lives and reigns with You and the Holy Spirit, one God, now and forever.',
-            'zh': ''
+            'zh': '权能的上帝，你拣选了童女玛丽亚成为你儿子的母亲，借着她你向那些贫穷的,地位低下的和被人看为低贱的人显明了你的有恩慈的看顾。求你使我们可以在谦卑和信心中领受你的道，因而与耶稣合而为一。奉耶稣基督，你的儿子，我们主的名，他永远活着，与你和圣灵同掌权柄，同是一位上帝，从今时直到永远。'
         },
         'nativityJohn': {
             'en': 'Almighty God, through John the Baptism, the forerunner of Christ, You once proclaimed salvation. Now granted that we may know this salvation and serve You in holiness and righteousness all the days of our life; through our Lord Jesus Christ, Your Son, who lives and reigns with You and the Holy Spirit, one God, now and forever.',
-            'zh': ''
+            'zh': '权能的上帝，藉着作为耶稣先行者的约翰的洗礼，你宣告了救恩。现在我们求你使我们可以认识你的救恩，在我们的一生里用圣洁和公义里侍奉你。奉耶稣基督我们主的名，他永远活着，与你和圣灵同掌权柄，同是一位上帝，从今时直到永远。'
         }
     },
     different: {
@@ -233,7 +233,7 @@ module.exports = {
             },
             'holyTrinity6': {
                 'en': 'Lord of all power and might, author and giver of all good things, graft into our hearts that the love of Your name, increase in us true religion, nourish us with all goodness, and of Your great mercy keep us in the same; through Jesus Christ, Your son, our Lord, who lives and reigns with You and the Holy Spirit, one God, now and forever.',
-                'zh': ''
+                'zh': '一切权能和能力的主，所有良善的始作者和给予者，把对你名的爱移植在我们心里，加增我们心里的真敬虔，用一切的良善培育我们，因为你的大怜悯使我们居住在你的大怜悯里，奉耶稣基督，你的儿子，我们主的名，他永远活着，与你同掌权柄，与你和圣灵同是一位上帝，从今时直到永远。'
             },
             'holyTrinity7': {
                 'en': 'O God, whose never-failing providence orders all things both in heaven and earth, we humbly implore You to put away from us all hurtful things and to give us those things that are profitable for us; through Jesus Christ, Your son, our Lord, who lives and reigns with You and the Holy Spirit, one God, now and forever.',
@@ -253,7 +253,7 @@ module.exports = {
             },
             'holyTrinity11': {
                 'en': 'Almighty and everlasting God, always more ready to hear than we to pray and to give more than we either desire or deserve, pour down upon us the abundance of Your mercy, forgiving those things of which our conscience is afraid and giving us those good things that we are not worthy to ask, except through the merits and mediation of Christ, our Lord, who lives and reigns with You and the Holy Spirit, one God, now and forever.',
-                'zh': ''
+                'zh': '权能和永恒的神啊，你在我们不会祷告的时候就听我们的祷告，在我们没有渴望和我们不配的时候，你给我们超乎我们所求所想，求你施丰盛的恩慈给我们，你因而赦免我们良心恐惧的事，给我们的美善是我们不配求的，全是因为耶稣我们主的工和中保，奉耶稣基督的名，他永远活着，与你和圣灵同掌权柄，同是一位上帝，从今时直到永远。'
             },
             'holyTrinity12': {
                 'en': 'Almighty and merciful God, by Your gift alone Your faithful people render true and laudable service. Help us steadfastly to live in this life according to Your promises and finally attain Your heavenly glory; through Jesus Christ, Your son, our Lord, who lives and reigns with You and the Holy Spirit, one God, now and forever.',
@@ -261,7 +261,7 @@ module.exports = {
             },
             'holyTrinity13': {
                 'en': 'Almighty and everlasting God, give us an increase of faith, hope, and charity; and that we my obtain what You have promised, make us love that You have commanded; through Jesus Christ, Your son, our Lord, who lives and reigns with You and the Holy Spirit, one God, now and forever.',
-                'zh': '大能永恒的上帝，让我们增加信心，盼望和爱，好让我们们得着你所应许的，让我们能够爱你所吩咐我们的命令，奉靠你的儿子、我们的主、耶稣基督，他与你和圣灵，同是一位上帝，活着掌权，从今时直到永远。'
+                'zh': '大能永恒的上帝，让我们增加信心，盼望和爱，好让我们得着你所应许的，让我们能够爱你所吩咐我们的命令，奉靠你的儿子、我们的主、耶稣基督，他与你和圣灵，同是一位上帝，活着掌权，从今时直到永远。'
             },
             'holyTrinity14': {
                 'en': 'O Lord, keep Your Church with Your perpetual mercy; and because of our frailty we cannot but fall, keep us ever by Your help from all things hurtful and lead us to all things profitable to our salvation; through Jesus Christ, Your son, our Lord, who lives and reigns with You and the Holy Spirit, one God, now and forever.',
@@ -305,7 +305,7 @@ module.exports = {
             },
             'holyTrinity24': {
                 'en': 'Stir up, O Lord, the wills of Your faithful people that they, plenteously bringing forth the fruit of good works, may by You be plenteously rewarded; through Jesus Christ, Your son, our Lord, who lives and reigns with You and the Holy Spirit, one God, now and forever.',
-                'zh': ''
+                'zh': '主，挑旺信你的民的热心，让他们可以借着丰富的善功的果实，得着丰富的奖赏，在末了与你居住在一起，直到永远；奉耶稣基督我们主的名，他永远活着，与你和圣灵同掌权柄，同是一位上帝，从今时直到永远。'
             },
             'holyTrinity25': {
                 'en': 'Almighty God, we implore You, show Your mercy to Your humble servants that we, who put no trust in our own merits, may not be dealt with after the severity of Your judgment but according to Your mercy; through Jesus Christ, Your son, our Lord, who lives and reigns with You and the Holy Spirit, one God, now and forever.',
@@ -313,7 +313,7 @@ module.exports = {
             },
             'holyTrinity26': {
                 'en': 'O Lord, so rule and govern our hearts and minds by Your Holy Spirit that, ever mindful of the end of all things and the day of Your just judgment, we may be stirred up to the holiness of living here and dwell with You forever hereafter; through Jesus Christ, Your son, our Lord, who lives and reigns with You and the Holy Spirit, one God, now and forever.',
-                'zh': ''
+                'zh': '主，借着圣灵统领我们的心思意念，让我们留意末了的事和你公义的审判，挑旺我们的热心，可以在此时此地圣洁地生活，在末了与你居住在一起，直到永远；奉耶稣基督我们主的名，他永远活着，与你和圣灵同掌权柄，同是一位上帝，从今时直到永远。'
             },
             'lastSunday': {
                 'en': 'O Lord, absolve Your people from their offenses that, from the bonds of our sins which by reason of our frailty we have brought upon ourselves, we may be delivered by Your bountiful goodness; through Jesus Christ, Your son, our Lord, who lives and reigns with You and the Holy Spirit, one God, now and forever.',
