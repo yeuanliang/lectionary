@@ -47,7 +47,7 @@ module.exports = {
             preface: 'Christmas',
             introit: '因有一婴孩为我们而生，有一子赐给｜我们\n政权必担在他的肩｜头上\n他名称为奇妙｜策士\n全能的神、永在的父、和平｜的君\n你们要向耶和华唱新歌，因为他行过奇妙｜的事\n他的右手和圣臂施行｜救恩\n耶和华发明了他的｜救恩\n在列邦人眼前显出｜公义\n记念他向以色列家所发的慈爱，所凭的｜信实\n地的四极都看见我们神的｜救恩\n全地都要向耶和华｜欢乐\n要发起大声，欢呼｜歌颂\n荣耀归于圣父圣子｜圣灵\n从起初到今时直到永远｜阿们\n因有一婴孩为我们而生，有一子赐给｜我们\n政权必担在他的肩｜头上\n他名称为奇妙｜策士\n全能的神、永在的父、和平｜的君',
             gradual: '奉耶和华名来的是应当称｜颂的\n耶和华是神，他光照了｜我们\n这是耶和华所｜作的\n在我们眼中看为｜希奇',
-            verse: 'Alleluia. A holy day has dawned upon us. Come, all you nations, and worship the Lord. Alleluia.',
+            verse: '哈里路亚！圣洁的一天如同晨曦临到我们，万民，齐来敬拜主。哈里路亚！',
             hymn: '382 We praise You, Jesus, at Your birth'
         },
         christmas1: {
