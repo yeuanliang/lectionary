@@ -16,7 +16,7 @@ internals.endpoints = [
             description: 'Get Memory Verses',
             validate: {
                 query: Joi.object({
-                    book: Joi.string().valid(BibleBooks).required()
+                    book: Joi.string().valid(...BibleBooks).required()
                 }).required(),
                 payload: false
             }

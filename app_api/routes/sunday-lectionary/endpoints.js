@@ -32,7 +32,7 @@ internals.endpoints = [
             description: 'Get Festival Lectionary',
             validate: {
                 params: Joi.object({
-                    festival: Joi.string().valid(Object.keys(FestivalsInfo)).required()
+                    festival: Joi.string().valid(...Object.keys(FestivalsInfo)).required()
                 }).required(),
                 payload: false
             }

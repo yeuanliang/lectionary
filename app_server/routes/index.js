@@ -1,6 +1,6 @@
 'use strict';
 
-const Wreck = require('wreck');
+const Wreck = require('@hapi/wreck');
 const BookName = require('../../app_api/data/reference.js').bibleBooks;
 
 const internals = {};
