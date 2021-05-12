@@ -1232,8 +1232,8 @@ module.exports = {
         },
         easter7: {
             color: '白色',
-            preface: 'Easter',
-            introit: '',
+            preface: 'Ascension',
+            introit: '耶和华啊，我用声音呼吁的时候，求你｜垂听\n并求你怜恤我，应｜允我\n耶和华是我的亮光，是我的｜拯救\n我还怕｜谁呢\n有一件事，我曾求耶和华，我仍要｜寻求\n就是一生一世住在耶和华的殿中，瞻仰他的荣美，在他的殿里｜求问\n因为我遭遇患难，他必暗暗地保｜守我\n在他亭子里，把我藏在他帐幕的隐密处，将我高举在磐｜石上\n我父母离｜弃我\n耶和华必收｜留我\n要等候耶｜和华\n当壮胆，坚固你的心，我再说，要等候耶｜和华\n荣耀归于圣父圣子｜圣灵\n从起初到今时直到永远｜阿们\n耶和华啊，我用声音呼吁的时候，求你｜垂听\n并求你怜恤我，应｜允我',
             gradual: 'Christ has risen | from the dead\n[God the Father] has crowned him with glory and | honor\nHe has given him dominion over the works | of his hands\nhe has put all things un- | der his feet',
             verse: '哈利路亚。因为知道基督既从死里复活，就不再死，死也不再作他的主了。哈利路亚。我不撇下你们为孤儿。我必到你们这里来。哈利路亚。',
             hymn: '539 Christ is the world’s Redeemer'
