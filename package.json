@@ -19,7 +19,7 @@
     "pug": "^3.0.2",
     "joi": "^17.4.0",
     "@hapi/vision": "^6.0.1",
-    "moment": "^2.29.1",
+    "moment": "^2.29.2",
     "@hapi/wreck": "^17.1.0"
   },
   "devDependencies": {
