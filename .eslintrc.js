@@ -1,5 +1,5 @@
 module.exports = {
-    "extends": "hapi",
+    "extends": "plugin:@hapi/recommended",
     "parserOptions": {
         "ecmaVersion": 8
     }
